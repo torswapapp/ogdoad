@@ -1,0 +1,1871 @@
+{
+  "_": {
+    "add": "Thêm",
+    "appName": "Kraken Wallet",
+    "balance": "Số dư {0}",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "continue": "Tiếp tục",
+    "copied": "Đã sao chép",
+    "copy": "Sao chép",
+    "copyToClipboard": "Đã sao chép vào bộ nhớ tạm",
+    "details": "Chi tiết",
+    "done": "Xong",
+    "ok": "OK",
+    "plus": "+{count}",
+    "receive": "Nhận",
+    "reconnecting": "Đang kết nối lại",
+    "remove": "Xóa",
+    "send": "Gửi",
+    "showLess": "Ẩn bớt",
+    "showMore": "Xem thêm",
+    "TEST_KEY": "deleteMeLaterMOdifiedTest",
+    "today": "Hôm nay",
+    "updating": "Đang cập nhật",
+    "upToDate": "Cập nhật",
+    "view": "Xem",
+    "yes": "Có",
+    "yesterday": "Hôm qua"
+  },
+  "about": {
+    "blog": "Blog",
+    "licenses": "Giấy phép",
+    "privacyPolicy": "Chính sách bảo mật",
+    "releaseNotes": "Ghi chú phát hành",
+    "termsOfService": "Điều khoản dịch vụ"
+  },
+  "accountSwitch": {
+    "createWallet": "Tạo ví",
+    "createWalletError": "Ví chưa được tạo, vui lòng thử lại",
+    "createWalletSuccess": "Đã tạo ví thành công",
+    "creatingNewWallet": "Đang tạo ví mới",
+    "manage": "Quản lý",
+    "menu": {
+      "advanced_info": "Thông tin nâng cao",
+      "connected_apps": "Ứng dụng được kết nối",
+      "delete": "Xóa",
+      "edit": "Tùy chỉnh"
+    },
+    "walletDelete": {
+      "error": "Chưa xóa ví, vui lòng thử lại",
+      "success": "Ví của bạn đã bị xóa"
+    },
+    "wallets": "Ví"
+  },
+  "advanced_account_info": {
+    "derivation_path": "Đường dẫn phái sinh",
+    "path_copied": "Đã sao chép đường dẫn",
+    "title": "Thông tin {walletName}",
+    "type": "Loại",
+    "wallet_information": "Thông tin ví",
+    "xpub": "Khóa công khai mở rộng",
+    "xpub_key_copied": "Đã sao chép vào bộ nhớ tạm"
+  },
+  "advancedAccountInfo": {
+    "derivationPath": "Đường dẫn phái sinh",
+    "ethereumDerivationPath": "Đường dẫn phái sinh Ethereum",
+    "ethereumDerivationPathContent": "Đường dẫn phái sinh của Ethereum được chia sẻ với các mạng tương thích với Ethereum như Polygon, Arbitrum, OP Mainnet, Base, Linea và Avalanche, nghĩa là tất cả chúng đều sử dụng cùng một đường dẫn phái sinh.",
+    "extendedPublicKey": "Khóa công khai mở rộng",
+    "includesCompatibleNetworks": "Bao gồm các mạng tương thích với Ethereum",
+    "includesLayer2Networks": "Bao gồm mạng lớp 2",
+    "pathCopied": "Đã sao chép đường dẫn",
+    "title": "Thông tin {walletName}",
+    "walletInformation": "Thông tin ví",
+    "xpub": "Khóa công khai mở rộng",
+    "xpubCopied": "Đã sao chép xPub",
+    "xpubHidden": "Đã ẩn xPub",
+    "xpubKeyCopied": "Đã sao chép vào bộ nhớ tạm"
+  },
+  "appLock": {
+    "appLockIsRequiredWhen": "Khóa ứng dụng được yêu cầu khi:",
+    "authenticationCancelled": "Xác thực đã bị hủy",
+    "authenticationCancelledDescription": "Xác thực sinh trắc học đã bị hủy.",
+    "authSignConnectedApps": "Xác thực và ký các ứng dụng được kết nối",
+    "authType": {
+      "faceId": "Face ID",
+      "generic": "cài đặt bảo mật như Mã PIN hoặc Mở khóa bằng sinh trắc học",
+      "passcode": "mật mã",
+      "touchId": "Touch ID"
+    },
+    "description": "Khóa ứng dụng giúp bạn tăng cường bảo mật bằng cách sử dụng {authType} của thiết bị để cho phép thực hiện các hành động sau:",
+    "missingAuth": {
+      "biometrics": "Khóa bằng sinh trắc học hoặc mã PIN",
+      "description": "Để bảo mật ví của mình, bạn cần thiết lập {authType} trong Cài đặt của thiết bị.",
+      "faceId": "Face ID hoặc Mật mã",
+      "ok": "Ok",
+      "settings": "Mở ứng dụng Cài đặt",
+      "setupPin": "Thiết lập mã PIN hoặc mở khóa bằng sinh trắc học",
+      "tapFaceId": "Nhấn Face ID & Mật mã”",
+      "tapSecurityPivacy": "Nhấn “Bảo mật & quyền riêng tư”",
+      "tapTouchId": "Nhấn “Touch ID & Mật mã”",
+      "title": "Đầu tiên, hãy bật {authType} trong Cài đặt",
+      "touchId": "Touch ID hoặc Mật mã",
+      "turnOn": "Bật {authType}"
+    },
+    "openTheApp": "Mở ứng dụng",
+    "sendCryptoAndNfts": "Gửi tiền điện tử và NFT",
+    "signTransactions": "Ký giao dịch",
+    "title": "Khóa ứng dụng",
+    "turnOnAppLock": "Bật Khóa ứng dụng",
+    "viewSecret": "Xem cụm từ khôi phục bí mật",
+    "whatIs": "Khóa ứng dụng là gì? "
+  },
+  "appSignRequest": {
+    "allowAccess": "Cho phép truy cập vào {tokenSymbol} của bạn?",
+    "allowAccessDescription": "Điều này sẽ cho phép {dappName} tự động hóa các giao dịch và chi tiêu {tokenSymbol} của bạn.",
+    "amount": "Số tiền",
+    "approve": "Phê duyệt",
+    "approveSpendingCap": "Phê duyệt giới hạn chi tiêu",
+    "balance": "Số dư",
+    "cancel": "Hủy",
+    "claim": "Bồi hoàn",
+    "confirm": "Xác nhận",
+    "contractAddress": "Địa chỉ hợp đồng",
+    "contractInteraction": "Tương tác hợp đồng",
+    "deposit": "Nạp",
+    "from": "Từ",
+    "message": "Tin nhắn",
+    "message_signing_request": "Yêu cầu ký tin nhắn",
+    "messageSigningRequest": "Ký",
+    "mint": "Mint",
+    "nonce": "Số được sử dụng một lần",
+    "scrollToBottomToConfirm": "Cuộn xuống dưới cùng để xác nhận",
+    "setSpendingCap": "Đặt giới hạn chi tiêu",
+    "sign": "Ký",
+    "swap": "Hoán đổi",
+    "to": "Đến",
+    "typed_message_signing_request": "Yêu cầu ký {type}",
+    "typedMessageSigningRequest": "Yêu cầu ký {type}",
+    "unknownApp": "Ứng dụng không xác định",
+    "withdrawal": "Rút"
+  },
+  "assetOptions": {
+    "copied": "Đã sao chép địa chỉ hợp đồng!",
+    "copyContractAddress": "Sao chép địa chỉ hợp đồng",
+    "hideAsset": "Ẩn tài sản",
+    "receive": "Nhận",
+    "send": "Gửi",
+    "viewDetails": "Xem chi tiết",
+    "viewOn": "Xem trên {explorer}"
+  },
+  "avaxLineaWelcoming": {
+    "buttonText": "Nghe hay đấy",
+    "part1": "Ví của bạn hiện hỗ trợ Avalanche, blockchain có khả năng mở rộng cao với tốc độ xử lý cực nhanh, và Linea, Ethereum L2 được thiết kế cho các giao dịch an toàn, chi phí thấp.",
+    "part2": "Với những tích hợp mới này, bạn có thể xem số dư tài sản, phát sóng giao dịch, thu thập NFT, theo dõi vị thế defi và kết nối với dapp trên cả hai mạng.",
+    "title": "Hỗ trợ Avalanche và Linea đã có mặt!"
+  },
+  "backupWallet": {
+    "backup": "Hỗ trợ",
+    "backupYourWallet": "Sao lưu ví của bạn",
+    "backupYourWalletDescription": "Đảm bảo bạn có thể khôi phục tiền điện tử của mình nếu bạn mất thiết bị hoặc chuyển sang ví khác.",
+    "secretRecoveryPhrase": "Cụm từ khôi phục bí mật",
+    "tapHereToView": "Nhấn vào đây để xem"
+  },
+  "backupWalletPrompt": {
+    "backUpNow": "Sao lưu ngay bây giờ",
+    "body": "Bạn chưa sao lưu Cụm từ khôi phục bí mật của mình. Chúng tôi khuyên bạn nên sao lưu để tránh mất quyền truy cập vào khoản tiền của mình.",
+    "header": "Trước khi nhận tiền vào ví này, hãy sao lưu cụm từ khôi phục"
+  },
+  "blastWelcoming": {
+    "boldBlastNetwork": "Blast Network",
+    "buttonText": "Nghe hay đấy",
+    "part1": "Ví của bạn hiện hỗ trợ {boldBlastNetwork}. Ethereum L2 với lợi suất gốc cho ETH và stablecoin.",
+    "part2": "Với sự tích hợp này, chúng tôi đã tạo tiền đề để nhanh chóng bổ sung thêm nhiều mạng Cấp 2 hơn, đồng thời duy trì trải nghiệm ví di động an toàn nhất.",
+    "title": "Kraken Wallet chào đón Blast!"
+  },
+  "broadcast": {
+    "sent": "Đã gửi"
+  },
+  "browser": {
+    "clearSearch": "Xóa",
+    "loadingError": {
+      "description": "Kiểm tra URL xem có lỗi đánh máy hoặc thiếu phần nào không",
+      "title": "Không tìm thấy URL"
+    },
+    "noSearch": {
+      "description": "Nhập hoặc dán url đầy đủ để tìm kiếm",
+      "title": "Bắt đầu tìm kiếm của bạn"
+    },
+    "quickActions": {
+      "connectedApps": "Xem các ứng dụng được kết nối",
+      "disconnect": "Ngắt kết nối",
+      "refresh": "Làm mới",
+      "share": "Chia sẻ"
+    },
+    "searchOnChain": "Tìm kiếm onchain"
+  },
+  "bugTracking": {
+    "allow": "Cho phép",
+    "content": "Khả năng quan sát cho phép chúng tôi theo dõi và cải thiện trải nghiệm ví của bạn bằng cách thu thập dữ liệu cần thiết. Điều này giúp chúng tôi xác định các vấn đề, tối ưu hóa hiệu suất và đảm bảo ví của bạn hoạt động trơn tru. Dữ liệu của bạn được ẩn danh và an toàn! ",
+    "disallow": "Không cho phép",
+    "skip": "Hỏi tôi sau",
+    "title": "Giúp chúng tôi cải thiện Kraken Wallet"
+  },
+  "coins": {
+    "allNetworks": "Tất cả các mạng",
+    "filterAssets": "Lọc tài sản",
+    "search_placeholder": "Tìm kiếm tài sản",
+    "showAssets": "Hiển thị tài sản",
+    "testnet": "Mạng thử nghiệm"
+  },
+  "collection": {
+    "title": "Bộ sưu tập"
+  },
+  "config": {
+    "contract-approved-failed": {
+      "title": "👎 Phê duyệt không thành công"
+    },
+    "contract-approved": {
+      "body": "{amount} {symbol} đã được phê duyệt trên {contractAddress}",
+      "title": "🤝 Hợp đồng đã được phê duyệt"
+    },
+    "contract-interaction-failed": {
+      "body": "Tương tác với {contractAddress} không thành công",
+      "title": "👎 Tương tác không thành công"
+    },
+    "contract-interaction": {
+      "body": "Tương tác với {contractAddress}",
+      "title": "🤝 Tương tác hợp đồng"
+    },
+    "funds-deposited-failed": {
+      "title": "👎 Nạp tiền không thành công"
+    },
+    "funds-deposited": {
+      "body": "{amount} {symbol} đã được nạp vào {address}",
+      "title": "🤝 Đã nạp {symbol}"
+    },
+    "funds-withdrawn-failed": {
+      "title": "👎 Rút tiền không thành công"
+    },
+    "funds-withdrawn": {
+      "body": "Đã rút về {address}",
+      "title": "+ {amount} {symbol}"
+    },
+    "generic-transaction": {
+      "body": "Giao dịch gần đây đã được xử lý thành công trên {network}",
+      "title": "✅ Giao dịch thành công!"
+    },
+    "nft-failed": {
+      "title": "👎 Gửi NFT không thành công"
+    },
+    "nft-received": {
+      "body": "Đã nhận trên {address}",
+      "title": "NFT đã nhận được: {symbol}"
+    },
+    "nft-sent": {
+      "body": "{nftName} đã được gửi đến {address}",
+      "title": "🖼️ {nftName} đã gửi!"
+    },
+    "payment-debited": {
+      "body": "Đã ghi nợ vào {address}",
+      "title": "- {amount} {symbol}"
+    },
+    "payment-failed": {
+      "title": "👎 Gửi không thành công"
+    },
+    "payment-pending": {
+      "body": "Đang chờ xử lý trên {address}"
+    },
+    "payment-received-pending": {
+      "bitcoin": {
+        "body": "{amount} {symbol} đang được nhận",
+        "title": "🤌 Đang chuyển"
+      },
+      "body": "{amount} {symbol} đang được nhận",
+      "dogecoin": {
+        "body": "{amount} {symbol} đang được nhận",
+        "title": "🤌 Đang chuyển"
+      },
+      "title": "🤌 Đang chuyển"
+    },
+    "payment-received": {
+      "bitcoin": {
+        "body": "{amount} {symbol} đã được nhận"
+      },
+      "body": "Đã nhận trên {address}",
+      "dogecoin": {
+        "body": "{amount} {symbol} đã được nhận"
+      },
+      "title": "+ {amount} {symbol}"
+    },
+    "payment-sent": {
+      "bitcoin": {
+        "body": "{amount} {symbol} đã được gửi"
+      },
+      "body": "{amount} {symbol} đã được gửi đến {address}",
+      "dogecoin": {
+        "body": "{amount} {symbol} đã được gửi"
+      },
+      "title": "{symbol} đã gửi"
+    },
+    "swap-complete": {
+      "body": "{amountOut} {symbolOut} đã được hoán đổi lấy {amountIn} {symbolIn} thông qua {facilitator}",
+      "title": "🫡 Aye Aye!"
+    },
+    "swap-failed": {
+      "title": "👎 Hoán đổi không thành công"
+    },
+    "token-approved": {
+      "body": "{symbol} đã được phê duyệt trên {operator}",
+      "title": "🫡 Aye Aye!"
+    },
+    "transaction-confirmed": {
+      "body": "Giao dịch của bạn đã thành công.",
+      "title": "🫡 Aye Aye!"
+    },
+    "transaction-failed": {
+      "body": "Giao dịch của bạn không thành công.",
+      "title": "👎 Arrrrgggghhhh.."
+    },
+    "utxo-payment-failed": {
+      "title": "👎 Gửi không thành công"
+    },
+    "utxo-payment-received-pending": {
+      "body": "{amount} {symbol} đang được nhận",
+      "title": "🤌 Đang chuyển"
+    },
+    "utxo-payment-received": {
+      "body": "{amount} {symbol} đã được nhận",
+      "title": "🙌 {symbol} đã nhận!"
+    },
+    "utxo-payment-sent-pending": {
+      "body": "{amount} {symbol} đang được gửi",
+      "title": "🤌 Đang chuyển"
+    },
+    "utxo-payment-sent": {
+      "body": "{amount} {symbol} đã được gửi",
+      "title": "🙌 {symbol} đã gửi!"
+    }
+  },
+  "confirm": {
+    "no": "Hủy",
+    "title": "Bạn có chắc không?",
+    "yes": "Có"
+  },
+  "connect_app_auth": {
+    "app_has_access_to": "{app} có quyền truy cập vào:",
+    "connect_app": "Kết nối ứng dụng",
+    "network": "Mạng"
+  },
+  "connectApp": {
+    "all_networks": "Tất cả các mạng",
+    "cancel": "Hủy",
+    "connect": "Kết nối",
+    "connect_wallet": "Kết nối ví",
+    "request_approval": "Yêu cầu phê duyệt giao dịch",
+    "see_balance": "Xem số dư và hoạt động của bạn",
+    "unsupportedNetwork": "Mạng không được hỗ trợ",
+    "unsupportedNetworkDescription": "Ứng dụng này sử dụng mạng {unsupportedNetwork} không được hỗ trợ tại thời điểm này. Kraken Wallet hiện hỗ trợ các ứng dụng trên mạng Ethereum, Polygon, OP Mainnet, Arbitrum và Solana.",
+    "unsupportedNetworksDescription": "Ứng dụng này sử dụng các mạng {unsupportedNetworks} không được hỗ trợ tại thời điểm này. Kraken Wallet hiện hỗ trợ các ứng dụng trên mạng Ethereum, Polygon, OP Mainnet, Arbitrum và Solana."
+  },
+  "connectedApps": {
+    "app_details": {
+      "disconnect": "Ngắt kết nối",
+      "disconnect_decscription": "Ngắt kết nối ứng dụng này sẽ xóa tất cả quyền truy cập vào ví của bạn",
+      "error": "Lỗi ngắt kết nối",
+      "open": "Mở"
+    },
+    "list": {
+      "connect_to_app": "Kết nối với ứng dụng",
+      "disconnect_all": "Ngắt kết nối tất cả ({0})",
+      "error_all": "Lỗi ngắt kết nối tất cả ứng dụng",
+      "instructions": "Quét mã QR để kết nối ứng dụng với WalletConnect",
+      "title": "Ứng dụng được kết nối",
+      "tutorial": "Ethereum hoạt động như thế nào?"
+    }
+  },
+  "currency": {
+    "australianDollar": "Đô la Úc",
+    "bitcoin": "Bitcoin",
+    "britishPound": "Pound Anh",
+    "canadianDollar": "Đô la Canada",
+    "ether": "Ether",
+    "euro": "Euro",
+    "japaneseYen": "Yên Nhật",
+    "russianRuble": "Rúp Nga",
+    "satoshis": "Satoshi",
+    "southKoreanWon": "Won Hàn Quốc",
+    "swissFranc": "Franc Thụy Sĩ",
+    "usDollar": "Đô la Mỹ"
+  },
+  "defi": {
+    "claimable": "Có thể bồi hoàn",
+    "debt": "Nợ",
+    "dept": "Phòng",
+    "network": "mạng",
+    "onePosition": "1 vị thế",
+    "positions": "{numberOfPositions} vị thế",
+    "rewards": "Phần thưởng",
+    "vaults": "Kho an toàn"
+  },
+  "deleteAccountConfirm": {
+    "cancel": "Hủy",
+    "caption": "Bạn có thể khôi phục ví của mình bằng cụm từ khôi phục bí mật",
+    "delete": "Xóa",
+    "header": "Bạn có chắc chắn muốn xóa ví này không?",
+    "title": "Xóa ví"
+  },
+  "deleteAccountVerifyBalance": {
+    "balanceLabel": "Số dư",
+    "cancel": "Hủy",
+    "caption": "Vui lòng nhập số dư ví của bạn trước khi xóa, bạn có thể khôi phục ví của mình bằng cụm từ khôi phục bí mật",
+    "delete": "Xóa",
+    "header": "Ví của bạn có số dư",
+    "inputLabel": "Nhập số dư ví"
+  },
+  "deleteAllData": {
+    "iCloudInfo": {
+      "desc": "Miễn là bạn chưa xóa bản sao lưu theo cách thủ công thì ví của bạn vẫn có thể khôi phục được.",
+      "title": "Thao tác này sẽ không xóa bản sao lưu iCloud của bạn."
+    }
+  },
+  "diagnostics": {
+    "running": "Đang chạy chẩn đoán..."
+  },
+  "discovery": {
+    "explore": "Khám phá"
+  },
+  "editAccount": {
+    "rename": "Đổi tên",
+    "save": "Lưu",
+    "title": "Chỉnh sửa ví",
+    "walletName": "Tên ví"
+  },
+  "editNote": {
+    "title": "Mô tả"
+  },
+  "errors": {
+    "connectionError": "Lỗi kết nối",
+    "exploreSubpage": "Đã xảy ra lỗi khi mở nội dung này. Vui lòng thử lại sau.",
+    "generalFetchError": "Có lỗi, vui lòng thử lại",
+    "generic": "Đã xảy ra lỗi",
+    "genericTryAgainLater": "Đã xảy ra sự cố, vui lòng thử lại sau",
+    "network": "Lỗi mạng",
+    "offline": "Ngoại tuyến",
+    "seedMissing": "Lỗi nghiêm trọng! Hạt giống không khả dụng."
+  },
+  "explore": {
+    "continueAccessibilityHint": "Chấp nhận tuyên bố từ chối trách nhiệm và tiếp tục",
+    "disclaimerBody": "Xin lưu ý tính năng này có chứa nội dung do bên thứ ba cung cấp. Tham khảo các điều khoản có liên quan trong Điều khoản dịch vụ.",
+    "disclaimerTitle": "Chào mừng đến với Explore!",
+    "errorBody": "Ứng dụng không thể tải nội dung trong trang này. Hãy thử lại sau",
+    "errorTitle": "Đã xảy ra lỗi",
+    "rewardPrefix": "Kiếm được"
+  },
+  "extendedPublicKey": {
+    "bitcoinXpub": "Bitcoin xPub",
+    "copyXpub": "Sao chép xPub",
+    "summary": "Đây là {summaryEmphasis} của bạn, là khóa công khai chính được sử dụng để tạo tất cả các địa chỉ bitcoin công khai cho ví này.",
+    "summaryEmphasis": "Khóa công khai mở rộng Bitcoin (xPub)",
+    "type": "Loại: {type}"
+  },
+  "extension": {
+    "_": {
+      "off": "Tắt",
+      "on": "Bật",
+      "timeAbbr": {
+        "days": "ngày",
+        "hours": "giờ",
+        "minutes": "tối thiểu",
+        "months": "tháng",
+        "seconds": "giây",
+        "weeks": "wk",
+        "years": "năm"
+      },
+      "unknown": "không xác định"
+    },
+    "alt": {
+      "proceduralWalletImage": "Ảnh ví thủ tục"
+    },
+    "ariaLabel": {
+      "icon": "Icon",
+      "iconButton": "Nút có biểu tượng",
+      "toggleSwitch": "Nút chuyển đổi"
+    },
+    "assets": {
+      "logoAlt": "logo tài sản",
+      "manageAssets": "Quản lý tài sản"
+    },
+    "customNetwork": {
+      "addCustomNetwork": "Thêm mạng tùy chỉnh",
+      "addNetwork": "Thêm mạng",
+      "blockExplorerUrl": "URL block explorer",
+      "chainId": "ID chuỗi",
+      "customNetwork": "Mạng tùy chỉnh",
+      "customNetworks": "Mạng tùy chỉnh",
+      "decimals": "Số thập phân",
+      "editCustomNetwork": "Chỉnh sửa mạng tùy chỉnh",
+      "enterNetworkName": "Nhập tên mạng",
+      "networkName": "Tên mạng",
+      "remove": "Xóa",
+      "rpcUrl": "URL RPC",
+      "symbol": "Biểu tượng",
+      "updateNetwork": "Cập nhật mạng"
+    },
+    "enterPasswordDialog": {
+      "continue": "Tiếp tục",
+      "currentPasswordAriaLabel": "Mật khẩu hiện tại",
+      "enterCurrentPassword": "Nhập mật khẩu hiện tại",
+      "enterToDecrypt": "Nhập mật khẩu hiện tại của bạn để xem cụm từ khôi phục",
+      "lockGraphicsAlternativeText": "Đồ họa khóa"
+    },
+    "home": {
+      "addWallet": "Thêm ví",
+      "manage": "Quản lý",
+      "selectWallet": "Chọn ví"
+    },
+    "lockWallet": "Khóa ví",
+    "manageAssets": {
+      "filter": "Lọc tài sản",
+      "hiddenAssets": "Tài sản đã bị ẩn",
+      "manageAssets": "Quản lý tài sản",
+      "search": "Tìm kiếm hơn 5.000 tài sản",
+      "searchResults": "Kết quả tìm kiếm",
+      "unhideAll": "Bỏ ẩn tất cả",
+      "visibleAssets": "Tài sản đang hiển thị"
+    },
+    "manageWallets": {
+      "viewRecoveryPhrase": "Xem cụm từ khôi phục"
+    },
+    "navigation": {
+      "activity": "Hoạt động",
+      "assets": "Tài sản",
+      "nfts": "NFT"
+    },
+    "nft": {
+      "about": "Về",
+      "addNfts": "Thêm NFT vào ví của bạn",
+      "send": "Gửi"
+    },
+    "onboarding_backup": {
+      "backUpWallet": "Sao lưu ví"
+    },
+    "onboarding": {
+      "skip": "Bỏ qua",
+      "typeYourSecretRecoveryPhrase": "Nhập cụm từ khôi phục bí mật của bạn",
+      "walletSupports": "Ví này hỗ trợ Ethereum, Polygon, Optimism, Arbitrum, v.v."
+    },
+    "receive": {
+      "receiveCryptoOrNft": "Nhận tiền điện tử hoặc NFT"
+    },
+    "send": {
+      "amountInput": {
+        "balance": "Số dư",
+        "errors": {
+          "exceedsBalance": "Số tiền đã nhập vượt quá số dư của bạn",
+          "greaterThanZero": "Số tiền đã nhập phải lớn hơn 0",
+          "invalid": "Số tiền đã nhập không hợp lệ"
+        },
+        "label": "Số tiền",
+        "placeholder": "Nhập số tiền"
+      },
+      "continue": "Tiếp tục",
+      "networkFee": "Phí mạng",
+      "sending": {
+        "title": "Đang gửi"
+      },
+      "sendingTo": {
+        "search": "Chọn tài sản bạn muốn gửi",
+        "title": "Đang gửi tới"
+      },
+      "sendInput": {
+        "label": "Đang gửi tới",
+        "paste": "Dán",
+        "placeholder": "Nhập địa chỉ hoặc tên miền ENS..."
+      },
+      "sendOn": {
+        "network": "mạng",
+        "title": "Gửi vào"
+      }
+    },
+    "settings": {
+      "build": "Xây dựng {0}",
+      "changePassword": {
+        "caption": "Nhập mật khẩu để bảo mật và khóa ví của bạn",
+        "confirmPassword": "Xác nhận mật khẩu",
+        "label": "Mật khẩu",
+        "menuItemTitle": "Đổi mật khẩu",
+        "setPassword": "Đặt mật khẩu",
+        "title": "Nhập mật khẩu mới",
+        "typePassword": "Nhập mật khẩu"
+      },
+      "lockWallet": "Khóa ví",
+      "privacy": "Bảo mật",
+      "version": "Tiện ích mở rộng Kraken Wallet {0}",
+      "walletSettings": "Cài đặt ví"
+    },
+    "skip": "Bỏ qua",
+    "walletBackup": {
+      "couldNotRetrieveState": "Không thể truy xuất trạng thái xác minh cụm từ khôi phục",
+      "unverified": "Cụm từ khôi phục chưa được xác minh",
+      "verified": "Cụm từ khôi phục đã được xác minh"
+    },
+    "walletSettings": "Cài đặt ví"
+  },
+  "floatingTransactionActivityButtons": {
+    "receive": "Nhận",
+    "send": "Gửi"
+  },
+  "globalActivity": {
+    "addAssets": "Thêm một số tài sản vào Ví của bạn",
+    "allActivity": "Tất cả hoạt động",
+    "emptySelection": {
+      "description": "Ví của bạn chứa 0 tài sản trên mạng đã chọn",
+      "title": "Không có tài sản nào trên mạng đã chọn"
+    },
+    "noActivity": {
+      "description": "Thêm một số tài sản vào ví của bạn",
+      "title": "Giao dịch sẽ xuất hiện ở đây"
+    },
+    "recentActivity": "Hoạt động gần đây",
+    "title": "Hoạt động",
+    "transactionFailedInfo": "Giao dịch {network} gần đây không thành công",
+    "transactionsWillAppearHere": "Giao dịch sẽ xuất hiện ở đây"
+  },
+  "home": {
+    "assets": "Tài sản",
+    "collection": "NFT",
+    "collection_see_all": "Xem tất cả",
+    "deposits": "DeFi",
+    "manage": "Quản lý",
+    "total_balance": "Số dư"
+  },
+  "manageWallets": {
+    "title": "Quản lý ví"
+  },
+  "marketData": {
+    "about": "Giới thiệu về {assetSymbol}",
+    "allTimeHigh": {
+      "details": "Mức giá cao nhất mà một loại tiền điện tử đã được giao dịch kể từ khi ra đời.",
+      "title": "Cao ở mọi thời điểm"
+    },
+    "allTimeLow": {
+      "details": "Mức giá thấp nhất mà một loại tiền điện tử đã được giao dịch kể từ khi ra đời.",
+      "title": "Thấp ở mọi thời điểm"
+    },
+    "circulatingSupply": {
+      "details": "Số lượng đồng tiền điện tử hoặc token hiện có sẵn trên thị trường và công chúng đang sở hữu.",
+      "title": "Nguồn cung lưu hành"
+    },
+    "contract": "Hợp đồng",
+    "contractAddressCopied": "Địa chỉ hợp đồng đã được sao chép!",
+    "explorers": "Công cụ khám phá",
+    "fullyDilutedValuation": {
+      "details": "Vốn hoá thị trường nếu nguồn cung tối đa đang được lưu hành, được tính bằng cách nhân giá hiện tại với nguồn cung tối đa.",
+      "short": "FDV",
+      "title": "Định giá pha loãng hoàn toàn"
+    },
+    "high": "Cao:",
+    "links": "Liên kết",
+    "low": "Thấp:",
+    "marketCap": {
+      "details": "Tổng giá trị thị trường của tiền điện tử, được tính bằng cách nhân giá hiện tại với nguồn cung lưu hành.",
+      "short": "Vốn hóa thị trường",
+      "title": "Vốn hóa thị trường"
+    },
+    "maxSupply": {
+      "details": "Số lượng đồng tiền điện tử hoặc token tối đa sẽ tồn tại đối với một loại tiền điện tử, như được xác định bởi giao thức của dự án.",
+      "title": "Nguồn cung tối đa"
+    },
+    "networkFee": {
+      "current": "Phí hiện tại",
+      "duration": "Thời hạn",
+      "title": "Phí mạng"
+    },
+    "period": {
+      "all": "TẤT CẢ",
+      "day": "24 GIỜ",
+      "month": "1 THÁNG",
+      "week": "1 tuần",
+      "year": "1 năm"
+    },
+    "price": "Giá",
+    "priceNotAvailable": "Giá (không khả dụng)",
+    "readMore": "Đọc thêm",
+    "showLess": "Ẩn bớt",
+    "terminology": "Thuật ngữ",
+    "tokenContract": "Hợp đồng token",
+    "tokenContractWarning": {
+      "boldDescription": "Không bao giờ gửi tiền đến địa chỉ bạn đã sao chép.",
+      "description": "{boldDescription} Đây KHÔNG phải là địa chỉ nhận tiền của bạn. Đó là địa chỉ hợp đồng thông minh được sử dụng để xác định token trên blockchain.",
+      "header": "Bạn vừa sao chép địa chỉ hợp đồng token"
+    },
+    "totalSupply": {
+      "details": "Số lượng đồng tiền điện tử hoặc token hiện đang tồn tại, bao gồm cả những loại có thể bị khóa, dự trữ hoặc chưa được phát hành.",
+      "title": "Tổng nguồn cung"
+    },
+    "volume24h": {
+      "details": "Tổng giá trị của một loại tiền điện tử được giao dịch trong 24 giờ qua trên tất cả các sàn giao dịch.",
+      "short": "Khối lượng trong 24 giờ",
+      "title": "Khối lượng trong 24 giờ"
+    },
+    "website": "Trang web"
+  },
+  "network": {
+    "arbitrum": "Arbitrum",
+    "avalanche": "Avalanche",
+    "base": "Cơ sở",
+    "bitcoin": "Bitcoin",
+    "blast": "Blast",
+    "dogecoin": "Dogecoin",
+    "ethereum": "Ethereum",
+    "ethereum_goerli": "Ethereum - Mạng thử nghiệm Goerli",
+    "ethereum_sepolia": "Ethereum - Mạng thử nghiệm Sepolia",
+    "ink_sepolia": "Ink - Mạng thử nghiệm Sepolia",
+    "linea": "Linea",
+    "matic": "Matic",
+    "optimism": "OP Mainnet",
+    "polygon": "Polygon",
+    "solana": "Solana",
+    "solana_devnet": "Solana - Devnet",
+    "tezos": "Tezos",
+    "unknown": "Không xác định"
+  },
+  "nftCollection": {
+    "archiveCollectionDetailsSubtitle": "Tất cả NFT được lưu trữ",
+    "archiveCollectionDetailsTitle": "Lưu trữ",
+    "archiveCollectionSubtitle": "Tất cả NFT được lưu trữ",
+    "archiveCollectionTitle": "NFT được lưu trữ",
+    "archivedDaysInfo": "{days} ngày trước",
+    "archivedOneDayInfo": "1 ngày trước",
+    "heading": "Mục"
+  },
+  "nftGallery": {
+    "favorite": "Yêu thích"
+  },
+  "nftList": {
+    "collections": "Bộ sưu tập",
+    "collectionsEmptyState": {
+      "allNetworks": {
+        "heading": "Chưa có bộ sưu tập nào trong ví này",
+        "subheading": "Ví của bạn chứa 0 bộ sưu tập trên tất cả các mạng được hỗ trợ"
+      },
+      "selectedNetworks": {
+        "heading": "Không có bộ sưu tập nào trên các mạng đã chọn",
+        "subheading": "Ví của bạn chứa 0 bộ sưu tập NFT trên các mạng đã chọn"
+      }
+    },
+    "everything": "Mọi thứ",
+    "everythingEmptyState": {
+      "allNetworks": {
+        "heading": "Chưa có NFT nào trong ví này",
+        "subheading": "Ví của bạn chứa 0 NFT trên tất cả các mạng được hỗ trợ"
+      },
+      "selectedNetworks": {
+        "blastHeading": "NFT Blast sắp ra mắt",
+        "blastSubheading": "Ví này chưa hỗ trợ xem NFT của bạn trên Blast Network",
+        "heading": "Không có NFT trên các mạng đã chọn",
+        "subheading": "Ví của bạn chứa 0 NFT trên các mạng đã chọn"
+      }
+    },
+    "title": "NFT"
+  },
+  "nftManage": {
+    "archive": "Lưu trữ",
+    "copy_id": "Sao chép ID",
+    "favorite": "Yêu thích",
+    "title": "Quản lý NFT",
+    "unArchive": "Hủy lưu trữ",
+    "unArchiveSuccess": "NFT đã bị hủy lưu trữ",
+    "unfavorite": "Bỏ yêu thích"
+  },
+  "nftOptions": {
+    "archive": "Lưu trữ",
+    "favorite": "Yêu thích",
+    "send": "Gửi",
+    "unarchive": "Hủy lưu trữ",
+    "unfavorite": "Bỏ yêu thích",
+    "viewDetails": "Xem chi tiết",
+    "viewOn": "Xem trên {explorer}"
+  },
+  "nftView": {
+    "about": "Về",
+    "ens": {
+      "description": "Ethereum Name Service (ENS) là tên miền an toàn cho thế giới phi tập trung. Miền ENS cung cấp cách để người dùng liên kết tên con người có thể đọc được với các tài nguyên blockchain và phi blockchain, như địa chỉ Ethereum, hàm băm IPFS hoặc URL trang web. Tên miền ENS có thể được mua và bán trên thị trường thứ cấp.",
+      "links": {
+        "label": "Xem trên"
+      },
+      "ownership": {
+        "label": "Quyền sở hữu",
+        "manager": "Người quản lý",
+        "owner": "Chủ sở hữu"
+      },
+      "traits": {
+        "created": "Ngày tạo",
+        "expiration": "Hết hạn vào"
+      }
+    },
+    "failedMedia": {
+      "desc": "Loại phương tiện truyền thông có thể chưa được hỗ trợ.",
+      "title": "Không thể tải phương tiện truyền thông"
+    },
+    "links": {
+      "label": "Xem trên"
+    },
+    "manage": "Quản lý",
+    "noName": "Không có tên",
+    "properties": "Thuộc tính",
+    "show_less": "Ẩn bớt",
+    "show_more": "Xem thêm"
+  },
+  "onboarding_backup_prompt": {
+    "caption": "Bạn cần {recoveryPhrase} của mình để khôi phục tiền điện tử nếu bạn mất thiết bị hoặc chuyển sang ví khác. {neverShare}",
+    "continue": "Tiết lộ cụm từ",
+    "recovery_phrase": "cụm từ khôi phục bí mật",
+    "skip": "Bỏ qua",
+    "skipWarning": {
+      "back": "Quay lại",
+      "checkOne": "Tôi hiểu rằng nếu mất điện thoại hoặc xóa ứng dụng mà không sao lưu, tôi sẽ không có cách nào để khôi phục ví của mình.",
+      "checkTwo": "Tôi hiểu rằng tôi phải chịu hoàn toàn trách nhiệm về bất kỳ tổn thất tài sản nào phát sinh do không có bản sao lưu phục hồi.",
+      "confirm": "Xác nhận",
+      "title": "Tiếp tục mà không sao lưu ví của bạn?"
+    },
+    "subtitle": "ví của bạn",
+    "title": "Hỗ trợ"
+  },
+  "onboarding_backup_verify": {
+    "caption": "Nhấn vào các từ bên dưới theo đúng thứ tự số để xác minh rằng bạn đã lưu cụm từ khôi phục bí mật của mình.",
+    "failed": "Cụm từ không hợp lệ",
+    "paste": "Dán",
+    "retry": "Vui lòng thử lại",
+    "title": "Xác minh rằng bạn đã lưu cụm từ một cách chính xác",
+    "verified": "Đã xác minh",
+    "verify": "Xác minh"
+  },
+  "onboarding_backup": {
+    "caption": "Hãy viết ra 12 từ này theo thứ tự số và cất giữ ở nơi an toàn. {neverShare}",
+    "continue": "Tiếp theo",
+    "copy": "Sao chép",
+    "title": "Cụm từ khôi phục bí mật của bạn"
+  },
+  "onboarding_import_wallet": {
+    "caption": "Nhập cụm từ khôi phục bí mật hoặc khóa riêng để nhập ví của bạn.",
+    "import": "Nhập",
+    "paste": "Dán",
+    "title": "Nhập ví của bạn"
+  },
+  "onboarding_secure_wallet": {
+    "authBiometric": "Xác thực bằng sinh trắc học",
+    "authFaceID": "FaceID",
+    "authPasscode": "Mật mã",
+    "authTouchID": "TouchID",
+    "caption": "Sử dụng {authType} để ngăn người nào đó có điện thoại truy cập vào tiền điện tử của bạn.",
+    "secureWallet": "Ví an toàn",
+    "skip": "Bỏ qua",
+    "subtitle": "ví của bạn",
+    "title": "Bảo mật"
+  },
+  "onboarding": {
+    "create_wallet": "Tạo ví",
+    "import_error": "Không thể nhập ví",
+    "import_wallet": "Nhập",
+    "intro_pages": {
+      "1": {
+        "subtitle": "Kraken Wallet",
+        "text": "Sở hữu tiền điện tử của bạn, khám phá blockchain và đảm bảo tương lai tài chính của bạn.",
+        "title": "Chào mừng đến với"
+      },
+      "2": {
+        "subtitle": "quyền giám hộ của bạn",
+        "text": "Bảo vệ an toàn tiền điện tử của bạn trong ví tự quản lý mà chỉ bạn mới có thể truy cập.",
+        "title": "Tiền điện tử của bạn"
+      },
+      "3": {
+        "subtitle": "blockchain",
+        "text": "Kraken Wallet hỗ trợ Bitcoin, Ethereum, Polygon, Doge, v.v. ",
+        "title": "Khám phá thêm"
+      },
+      "4": {
+        "subtitle": "& lưu trữ NFT",
+        "text": "Mua, bán, trao đổi tiền điện tử và lưu trữ NFT từ bộ sưu tập yêu thích của bạn.",
+        "title": "Mua tiền điện tử"
+      },
+      "settingUp": {
+        "subtitle": "ví của bạn...",
+        "text": "Việc này chỉ mất một chút thời gian",
+        "title": "Đang thiết lập"
+      }
+    },
+    "never_share": "Không bao giờ chia sẻ với bất cứ ai.",
+    "scroll_note": "Cuộn để biết thêm"
+  },
+  "onboardingBackupVerify": {
+    "caption": "Nhấn vào các từ bên dưới theo đúng thứ tự số để xác minh rằng bạn đã lưu cụm từ khôi phục bí mật của mình.",
+    "failed": "Cụm từ không hợp lệ",
+    "paste": "Dán",
+    "pasteWarning": {
+      "back": "Quay lại",
+      "checkOne": "Tôi hiểu rằng nếu tôi bị mất điện thoại hoặc xóa ứng dụng, tôi sẽ cần cụm từ khôi phục bí mật để khôi phục ví của mình.",
+      "checkTwo": "Tôi hiểu rằng nếu tôi làm mất cụm từ khôi phục, tôi sẽ hoàn toàn chịu trách nhiệm về mọi tổn thất tài sản.",
+      "confirm": "Xác nhận",
+      "title": "Xác nhận bạn đã lưu cụm từ khôi phục ở nơi an toàn"
+    },
+    "retry": "Vui lòng thử lại",
+    "title": "Xác minh rằng bạn đã lưu cụm từ một cách chính xác",
+    "verified": "Đã xác minh",
+    "verify": "Xác minh"
+  },
+  "onboardingImportCloudBackup": {
+    "desc": "Để nhập ví từ bản sao lưu, hãy sử dụng mã khóa để giải mã ví.",
+    "selection": {
+      "desc": "Bạn đã tạo nhiều hơn một bản sao lưu, hãy chọn bản sao lưu ví mà bạn muốn nhập",
+      "recent": "Gần đây nhất",
+      "title": "Chọn bản sao lưu ví bạn muốn nhập"
+    },
+    "title": "Nhập từ bản sao lưu",
+    "usePasskey": "Sử dụng mã khóa của tôi"
+  },
+  "onboardingImportMethod": {
+    "methodICloud": {
+      "desc": "Nhập từ bản sao lưu iCloud mà bạn đã tạo cho Kraken Wallet",
+      "title": "Nhập từ iCloud"
+    },
+    "methodManual": {
+      "desc": "Nhập bằng Cụm từ khôi phục bí mật dài 12-24 từ của bạn",
+      "title": "Nhập cụm từ hạt giống"
+    },
+    "subtitle": "ví của bạn",
+    "title": "Nhập"
+  },
+  "onboardingImportSubWallets": {
+    "findingWallets": {
+      "caption": "Quy trình này có thể mất vài giây",
+      "foundWallets": "Đã tìm thấy {count} ví...",
+      "title": "Đang tìm ví phụ"
+    },
+    "findSubWallets": {
+      "caption": "Quy trình này có thể mất vài giây",
+      "foundWallets": "Đã tìm thấy {count} ví...",
+      "title": "Đang tìm ví phụ"
+    },
+    "importSubWallets": {
+      "hasABalance": "Có số dư",
+      "hasBalance": "Có tiền",
+      "importingWallets": "Đang nhập {subWalletsCount} ví...",
+      "importingWalletsOne": "Đang nhập 1 ví...",
+      "importWallets": "Nhập {subWalletsCount} ví",
+      "importWalletsOne": "Nhập 1 ví",
+      "subtitle": "Chúng tôi tìm thấy {subWalletsCount} ví có hoạt động hoặc số dư. Chọn tất cả ví bạn muốn nhập.",
+      "subtitleOneWallet": "Chúng tôi tìm thấy 1 ví có hoạt động hoặc số dư.",
+      "title": "Chọn ví để nhập",
+      "wallet": "Ví",
+      "walletsFound": "Đã tìm thấy {subWalletsCount} ví",
+      "walletsFoundOne": "Đã tìm thấy 1 ví"
+    },
+    "importSubWalletsSuccess": {
+      "continue": "Tiếp tục",
+      "subtitle": "Đã thêm ví thành công. Bạn có thể thêm bất cứ lúc nào.",
+      "subtitleOneWallet": "Đã thêm ví thành công. Bạn có thể thêm bất cứ lúc nào.",
+      "title": "Đã nhập {subWalletsCount} ví!",
+      "titleOneWallet": "Đã nhập 1 ví!"
+    },
+    "loadingSubWallets": {
+      "caption": "Quy trình này có thể mất vài giây",
+      "foundWallets": "Đã tìm thấy {subWalletsCount} ví...",
+      "foundWalletsOne": "Đã tìm thấy 1 ví...",
+      "subtitle": "Quy trình này có thể mất vài giây",
+      "title": "Đang tìm ví phụ"
+    }
+  },
+  "onboardingImportWallet": {
+    "caption": "Nhập cụm từ khôi phục bí mật để nhập ví của bạn.",
+    "header": "Nhập ví của bạn",
+    "headerInvalid": "Kiểm tra cụm từ bí mật của bạn",
+    "import": "Nhập",
+    "invalid": "Cụm từ không hợp lệ",
+    "loading": "Đang nhập ví...",
+    "paste": "Dán",
+    "valid": "Đã nhập"
+  },
+  "onboardingOutro": {
+    "button": "Đồng ý & Tiếp tục",
+    "caption": "Ví này hỗ trợ Bitcoin, Ethereum, Polygon, Solana, v.v.",
+    "footer": "Khi tiếp tục, bạn đồng ý với\n",
+    "termsOfService": "các điều khoản dịch vụ của Kraken Wallet",
+    "title": "Ví của bạn đã sẵn sàng"
+  },
+  "onboardingPushNotifications": {
+    "allow": "Cho phép",
+    "content": "Nhận thông báo quan trọng về các giao dịch và các tương tác ví quan trọng khác. Để bật, hãy cho phép thông báo.",
+    "skip": "Hỏi tôi sau",
+    "title": "Để luôn được cập nhật thông tin, hãy cho phép thông báo",
+    "titleEnd": "cho phép thông báo",
+    "titleStart": "Để luôn được cập nhật, "
+  },
+  "onChainSecurity": {
+    "analysingApp": "Đang phân tích ứng dụng...",
+    "appConnectCriticalWarning": "Chúng tôi tin rằng ứng dụng này là ứng dụng độc hại và kết nối sẽ không an toàn. Nếu phê duyệt, bạn sẽ có thể bị mất tiền.",
+    "appConnectMediumWarning": "Không thể xác minh ứng dụng gửi yêu cầu.",
+    "appFlagged": "Cảnh báo ứng dụng!",
+    "appSafetyNotVerified": "Tính an toàn của ứng dụng chưa được xác minh",
+    "appSafetyNotVerifiedMessage": "Chúng tôi không thể xác minh tính an toàn của ứng dụng mà bạn đang cố gắng kết nối do lỗi tạm thời hoặc sự cố ngừng hoạt động của dịch vụ xác minh ứng dụng. Hãy tiến hành một cách thận trọng.",
+    "appSignMessageCriticalWarning": "Chúng tôi tin rằng ứng dụng này độc hại và tin nhắn không an toàn để ký. Nếu phê duyệt, bạn sẽ có thể bị mất tiền.",
+    "appSignMessageMediumWarning": "Không thể xác minh ứng dụng gửi yêu cầu.",
+    "appSignTransactionCriticalWarning": "Chúng tôi tin rằng ứng dụng này độc hại và giao dịch không an toàn để ký. Nếu phê duyệt, bạn sẽ có thể bị mất tiền.",
+    "appSignTransactionMediumWarning": "Không thể xác minh ứng dụng gửi yêu cầu.",
+    "appWarning": "Chúng tôi tin rằng ứng dụng này là ứng dụng độc hại và kết nối sẽ không an toàn. Nếu phê duyệt, bạn sẽ có thể bị mất tiền",
+    "criticalWarning": "Cảnh báo nghiêm trọng",
+    "domainMatch": "Miền trùng khớp",
+    "domainMatchInfo": "Miền được liên kết với yêu cầu này đã được xác minh là miền của ứng dụng này.",
+    "domainMismatch": "Miền không trùng khớp",
+    "domainMismatchInfo": "Trang web này có miền không khớp với người gửi yêu cầu này. Nếu phê duyệt, bạn sẽ có thể bị mất tiền.",
+    "domainMismatchMessage": "Miền của ứng dụng không khớp với người gửi yêu cầu này. Nếu phê duyệt, bạn sẽ có thể bị mất tiền.",
+    "domainMismatchWarning": "Cảnh báo - miền không trùng khớp",
+    "ignoreWarningAndProceed": "Bỏ qua cảnh báo và tiếp tục",
+    "knownSecurityRisk": "Rủi ro bảo mật đã biết",
+    "knownSecurityRisk!": "Rủi ro bảo mật đã biết!",
+    "knownSecurityRiskExclaimed": "Rủi ro bảo mật đã biết!",
+    "knownSecurityRiskExclamation": "Rủi ro bảo mật đã biết!",
+    "knownSecurityRiskInfo": "Trang web này bị nhiều nhà cung cấp bảo mật cảnh báo là không an toàn. Để bảo vệ tài sản của bạn, KHÔNG kết nối với trang web đó.",
+    "knownSecurityRiskMessage": "Trang web này bị nhiều nhà cung cấp bảo mật cảnh báo là không an toàn. Rời đi ngay để bảo vệ tài sản của bạn không bị rút cạn",
+    "messageFlagged": "Cảnh báo tin nhắn!",
+    "punycodeDomainRiskMessage": "Địa chỉ trang web này chứa các ký tự không chuẩn. Đây là một kỹ thuật thường được kẻ lừa đảo sử dụng để mạo danh các trang web hợp pháp. Vì sự an toàn của bạn, chúng tôi khuyên bạn không nên nhập thông tin nhạy cảm hoặc tiếp tục truy cập trang web này.",
+    "returnToSafety": "Trở về an toàn",
+    "signTransactionCriticalWarning": "Chúng tôi tin rằng giao dịch này là giao dịch độc hại và không an toàn để ký. Nếu phê duyệt, bạn sẽ có thể bị mất tiền.",
+    "transactionFlagged": "Cảnh báo giao dịch!",
+    "transactionWarning": "Chúng tôi tin rằng giao dịch này là giao dịch độc hại và không an toàn để ký. Nếu phê duyệt, bạn sẽ có thể bị mất tiền",
+    "unverifiedApp": "Không thể xác minh ứng dụng gửi yêu cầu.",
+    "warning": "Cảnh báo"
+  },
+  "passwordProtection": {
+    "authFailed": "Xác thực không thành công",
+    "authFailedDescription": "Bạn có thể thử lại hoặc có thể xóa hoàn toàn và đặt lại ứng dụng",
+    "biometricDescriptionAndroid": "ngay cả khi bạn đã thiết lập Sinh trắc học qua Khóa ứng dụng",
+    "biometricDescriptionIOS": "ngay cả khi bạn đã thiết lập FaceID hoặc TouchID qua Khóa ứng dụng",
+    "confirm": "Xác nhận",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "confirmResetApp": "Xác nhận đặt lại ứng dụng",
+    "connectedApps": "Xác thực và ký các ứng dụng được kết nối",
+    "createPassword": "Tạo mật khẩu",
+    "dataLoss1": "Tôi hiểu rằng việc đặt lại ứng dụng sẽ khôi phục hoàn toàn ứng dụng về trạng thái cài đặt mới.",
+    "dataLoss2": "Tôi hiểu rằng sau khi ứng dụng được khôi phục, tôi sẽ cần (các) cụm từ khôi phục bí mật để truy cập (các) ví của mình.",
+    "dataLoss3": "Tôi hiểu rằng nếu tôi đặt lại ứng dụng và không có (các) cụm từ khôi phục bí mật ví của mình thì sẽ không thể khôi phục (các) ví của tôi.",
+    "dataLoss4": "Tôi hiểu rằng nếu tôi làm mất (các) cụm từ khôi phục của mình thì tôi hoàn toàn chịu trách nhiệm về mọi tổn thất tài sản.",
+    "dataLossWarning": "Cảnh báo mất dữ liệu!",
+    "disable": "Vô hiệu hóa",
+    "disablePassword": "Vô hiệu hóa mật khẩu",
+    "disablePasswordDescription": "Nhập mật khẩu để tắt bảo vệ bằng mật khẩu",
+    "doubleEncryptsData": "Mã hóa kép dữ liệu ứng dụng của bạn",
+    "enablePasswordProtection": "Kích hoạt bảo vệ bằng mật khẩu",
+    "enterPassword": "Nhập mật khẩu",
+    "lockout": "Quá nhiều lần thử không thành công, hãy thử lại sau",
+    "openApp": "Mở ứng dụng (tùy chọn)",
+    "password": "Mật khẩu",
+    "passwordHintLetters": "Thử sử dụng chữ hoa và chữ thường",
+    "passwordHintLonger": "Thử sử dụng mật khẩu dài hơn",
+    "passwordHintNumbers": "Thử sử dụng chữ cái và số",
+    "passwordHintSpecialChars": "Thử sử dụng các ký tự đặc biệt: !@#$%^&*?_~",
+    "passwordIncorrect": "Mật khẩu không đúng",
+    "passwordLengthError": "Yêu cầu tối thiểu 6 ký tự",
+    "passwordMatchError": "Mật khẩu không khớp",
+    "passwordStrength": "Mật khẩu mạnh:",
+    "passwordStrengthAverage": "Trung Bình",
+    "passwordStrengthSecure": "Bảo mật",
+    "passwordStrengthStrong": "Strong",
+    "passwordStrengthVeryWeak": "Rất yếu",
+    "passwordStrengthWeak": "Yếu",
+    "passwordSupersedesAppLock": "Khóa ứng dụng sẽ không thay thế mật khẩu",
+    "passwordSupersedesAppLockDescription": "Nếu tạo mật khẩu thì bạn bắt buộc phải thực hiện giao dịch, {biometricDescription}. Vì lý do bảo mật, bạn sẽ cần thực hiện cả hai điều này.",
+    "protectYourData": "Bảo vệ dữ liệu của bạn bằng mã hóa bổ sung",
+    "rationaleCreateWallet": "Cần có mật khẩu của bạn để tạo ví mới",
+    "rationaleGetXPub": "Cần có mật khẩu để xem khóa công khai mở rộng của bạn",
+    "rationaleSeeRecoveryPhrase": "để xem Cụm từ khôi phục bí mật của bạn",
+    "rationaleSignTransaction": "Cần có mật khẩu của bạn để ký giao dịch",
+    "requiredToAccess": "Cần thiết để truy cập vào ví của bạn",
+    "requireOnOpen": "Cần thiết mỗi lần bạn mở ứng dụng?",
+    "requireOnOpenDesc": "Tăng cường bảo mật bằng cách mã hóa kép dữ liệu ứng dụng của bạn nhưng bạn sẽ cần nhập mật khẩu mỗi lần mở ứng dụng",
+    "resetHintModalConfirm": "OK",
+    "resetHintModalDesc": "Để điều chỉnh các tùy chọn mật khẩu, bạn sẽ cần tắt tính năng bảo vệ bằng mật khẩu và bật lại tính năng này với thay đổi đã thêm.",
+    "resetHintModalTitle": "Đặt lại mật khẩu để thay đổi cài đặt",
+    "retry": "Thử lại",
+    "sendCrypto": "Gửi tiền điện tử và NFT",
+    "signTransactions": "Ký giao dịch",
+    "title": "Bảo vệ bằng mật khẩu",
+    "typePassword": "Nhập mật khẩu",
+    "unlock": "Mở khóa",
+    "viewPhrase": "Xem cụm từ khôi phục bí mật",
+    "walletLocked": "Ví đã bị khóa",
+    "walletLockedDescription": "Nhập mật khẩu của bạn để mở khóa",
+    "warning": "Cảnh báo: đừng để mất mật khẩu",
+    "warningDescription": "Lưu trữ mật khẩu của bạn ở nơi an toàn. Mật khẩu đã được mã hóa cục bộ trên thiết bị của bạn, do đó Kraken không thể lấy lại được nếu bạn mất hoặc quên mật khẩu.",
+    "whatIs": "Bảo vệ bằng mật khẩu là gì? ",
+    "whatIsDescription": "Việc này sẽ bổ sung thêm tính bảo mật bằng cách yêu cầu mật khẩu để cho phép thực hiện các hành động sau:",
+    "wipeAndReset": "Xóa và đặt lại ứng dụng",
+    "wrongPassword": "Điều đó không hiệu quả",
+    "wrongPasswordDescription": "Hãy kiểm tra mật khẩu của bạn và thử lại"
+  },
+  "pushNotificationsPrompt": {
+    "allow": "Cho phép",
+    "content": "Nhận thông báo quan trọng về các giao dịch và các tương tác ví quan trọng khác. Để bật, hãy cho phép thông báo.",
+    "disallow": "Không cho phép",
+    "skip": "Hỏi tôi sau",
+    "title": "Để luôn được cập nhật thông tin, hãy cho phép thông báo",
+    "titleEnd": "cho phép thông báo",
+    "titleStart": "Để luôn được cập nhật, "
+  },
+  "receive": {
+    "addressCopied": "Đã sao chép địa chỉ",
+    "addressError": "Địa chỉ nhận có thể chưa được cập nhật, vui lòng làm mới và thử lại",
+    "copied": "Đã sao chép",
+    "copy": "Sao chép",
+    "share": "Chia sẻ",
+    "warning": "Đây là địa chỉ {networkName} của bạn.",
+    "warning_nft": "Đây là địa chỉ {networkName} của bạn. Sử dụng địa chỉ đó để nhận tiền điện tử và NFT tương thích trên mạng này."
+  },
+  "reputation": {
+    "likelySpam": "Có khả năng là lừa đảo",
+    "likelySpamDescription": "Token này được niêm yết trong danh sách đen. Hãy thận trọng khi tương tác với bất kỳ token nào bạn không thể xác minh. Đừng tin tưởng, hãy xác minh.",
+    "likelySpamHelp": "Token nằm trong danh sách đen là gì?",
+    "onTokenLists": "Trên {count} danh sách token",
+    "openDocs": "Mở tài liệu",
+    "title": "Danh tiếng",
+    "tokenLists": "Danh sách token",
+    "tokenListsDescription": "Danh sách token là một sáng kiến dựa vào cộng đồng nhằm cải thiện khả năng khám phá, danh tiếng và độ tin cậy đối với token ERC20.",
+    "tokenListsHelp": "Danh sách token là gì?",
+    "unverified": "Không được liệt kê",
+    "unverifiedDescription": "Token này không được niêm yết. Hãy thận trọng khi tương tác với bất kỳ token nào bạn không thể xác minh. Đừng tin tưởng, hãy xác minh.",
+    "unverifiedHelp": "Tại sao token đó không được niêm yết?",
+    "verified": "Niêm yết theo",
+    "verifiedDescription": "Danh sách token là danh sách dựa trên danh tiếng nhằm xác định và làm nổi bật các token chất lượng cao, đáng tin cậy cho bạn.",
+    "verifiedHelp": "Danh sách token là gì?"
+  },
+  "scan": {
+    "apps": "Ứng dụng",
+    "connected_to": "Đã kết nối với {appName}",
+    "instructions": "Kết nối với dapp bằng cách quét mã QR",
+    "manage": "Quản lý",
+    "missingPermission": "Để sử dụng máy ảnh, hãy đi tới cài đặt điện thoại của bạn và kích hoạt quyền máy ảnh của bạn cho ứng dụng Super Wallet",
+    "paste": "Dán địa chỉ",
+    "wallet_connect_failed": "Không quét được mã QR, vui lòng thử lại",
+    "wallet_connect_initialization_failure": "Lỗi khởi tạo WalletConnect",
+    "wallet_connect_invalid_qr_code": "Đây là mã QR không hợp lệ",
+    "wallet_connect_previously_submitted_qr_code": "Đây là mã QR không hợp lệ, vui lòng làm mới trang và thử lại",
+    "wallet_connect_version_deprecated": "Ứng dụng này không tương thích"
+  },
+  "send": {
+    "address": "Nhập địa chỉ...",
+    "addressHeader": "Đang gửi tới",
+    "addressOrENS": "Nhập địa chỉ hoặc tên miền ENS...",
+    "amountHeader": "Số tiền",
+    "balance": "Số dư {0}",
+    "confirm": "Xác nhận",
+    "confirmSend": "Xác nhận gửi",
+    "create": "Tạo",
+    "enterAmount": "Nhập số tiền",
+    "evm_fee_fast": "Nhanh",
+    "evm_fee_normal": "Bình thường",
+    "evm_fee_urgent": "Khẩn cấp",
+    "exceedsBalance": "Số tiền đã nhập vượt quá số dư khả dụng",
+    "exceedsFee": "Không đủ {token} cho phí mạng",
+    "failed": "Không thành công",
+    "failedPriceAlert": {
+      "desc": "Chúng tôi không thể tìm nạp dữ liệu giá cho token này vào lúc này.",
+      "title": "Giá USD cho {token} không khả dụng"
+    },
+    "fee": "Phí",
+    "fee_fast": "Nhanh",
+    "fee_medium": "Trung bình",
+    "fee_slow": "Chậm",
+    "feeWarning": "Phí mạng hiện tại là {feeAmount}, cao hơn {percentage}% số tiền bạn đang gửi.",
+    "invalidAddress": "Địa chỉ không hợp lệ, vui lòng kiểm tra và thử lại",
+    "max": "Tối đa",
+    "network_fee": "Phí mạng",
+    "networkWarning": {
+      "alertBody": "Đảm bảo người bạn sẽ gửi tới có ví hỗ trợ {networkName}",
+      "alertTitle": "Đang gửi trên mạng {networkName}"
+    },
+    "no_note": "Không có ghi chú",
+    "note": "Lưu ý",
+    "note_to_self": "Tự ghi chú",
+    "pending": "Đang chờ xử lý",
+    "polygonWarning": {
+      "alertBody": "Đảm bảo người bạn sẽ gửi có ví hỗ trợ Polygon",
+      "alertTitle": "Đang gửi trên mạng Polygon",
+      "label": "Đang gửi trên mạng Polygon"
+    },
+    "priority": "Ưu tiên",
+    "recipient": "Người nhận",
+    "scan": "Quét",
+    "send": "Gửi",
+    "sendError": "Không thể hoàn tất giao dịch, vui lòng thử lại",
+    "sending": "Đang gửi...",
+    "sent": "Đã gửi",
+    "successEstimation": "Thời gian hoàn thành ước tính: ~{time}",
+    "successLabel": "Giao dịch đã khởi tạo!",
+    "suspiciousCharWarning": {
+      "desc": "Địa chỉ này có các ký tự không thuộc ASCII. Xin lưu ý rằng có những ký tự trông giống hoặc rất giống với các chữ cái tiếng Anh.",
+      "title": "Chú ý:"
+    },
+    "technicalIssues": "Chúng tôi đang gặp sự cố, vui lòng thử lại sau",
+    "timeStampabbreviation": {
+      "day": "ngày",
+      "days": "ngày",
+      "hour": "giờ",
+      "hours": "giờ",
+      "minute": "tối thiểu",
+      "minutes": "phút",
+      "second": "giây",
+      "seconds": "giây"
+    },
+    "title": "Gửi {ticker}",
+    "title_nft": "Gửi NFT",
+    "transaction_id": "ID giao dịch",
+    "transfer_token": "Chuyển token",
+    "undo": "Hoàn tác",
+    "warning": {
+      "firstTimeSending": "Lần đầu gửi tới địa chỉ này",
+      "nthTimeSending": "{count} lần gửi trước tới địa chỉ này",
+      "title": "Cảnh báo",
+      "titleCritical": "Cảnh báo nghiêm trọng"
+    }
+  },
+  "settings": {
+    "about": "Về",
+    "about_release_notes": "Ghi chú phát hành",
+    "about_selftest": "Chạy chẩn đoán",
+    "advanced": "Nâng cao",
+    "appLock": "Khóa ứng dụng",
+    "backup": "Sao lưu",
+    "backup_mnemonic_seed": "Sao lưu hạt giống ghi nhớ",
+    "currency": "Tiền tệ",
+    "deleteAll": "Xóa tất cả dữ liệu",
+    "electrum_error_connect": "Không thể kết nối với máy chủ Electrum được cung cấp",
+    "electrum_reset": "Đặt lại về mặc định",
+    "electrum_reset_to_default": "Bạn có chắc chắn muốn đặt lại cài đặt Electrum của mình về mặc định không?",
+    "electrum_saved": "Những thay đổi của bạn đã được lưu thành công. Có thể cần phải khởi động lại ứng dụng để các thay đổi có hiệu lực.",
+    "electrum_unable_to_connect": "Không thể kết nối với {server}.",
+    "enableTracking": "Kích hoạt tính năng theo dõi lỗi",
+    "enableTrackingDescription": "Khi bật, bạn giúp ứng dụng của chúng tôi tốt hơn",
+    "general": "Tổng quan",
+    "header": "Cài đặt",
+    "hideBalances": "Ẩn số dư",
+    "language": "Ngôn ngữ",
+    "manageWallets": "Quản lý ví",
+    "notifications": "Thông báo đẩy",
+    "passwordProtection": "Bảo vệ bằng mật khẩu",
+    "pn_account_activity": "Hoạt động của tài khoản",
+    "pn_auth_n_sign_connected_apps": "Xác thực và ký các ứng dụng được kết nối",
+    "pn_connected_app_interactions": "Tương tác ứng dụng được kết nối",
+    "pn_incoming_transactions": "Giao dịch gửi đến",
+    "pn_incoming_transactions_pending": "Giao dịch gửi đến đang chờ xử lý",
+    "pn_levelAll": "Kích hoạt hoạt động tài khoản",
+    "pn_outgoing_transactions": "Giao dịch gửi đi",
+    "pn_outgoing_transactions_complete": "Giao dịch gửi đi đã hoàn tất",
+    "pn_outgoing_transactions_pending": "Giao dịch gửi đi đang chờ xử lý",
+    "pn_types_of_notifications_youll_receive": "Các loại thông báo bạn sẽ nhận được:",
+    "pn_would_you_like_to_receive_notifications": "Bạn có muốn nhận thông báo không?",
+    "privacy": "Bảo mật",
+    "pushNotifications": "Thông báo đẩy",
+    "refreshAll": "Làm mới siêu dữ liệu",
+    "refreshAllDesc": "Xóa bộ nhớ đệm cho tất cả NFT và tài sản",
+    "secretRecoveryPhrase": "Cụm từ khôi phục bí mật",
+    "security": "Bảo mật",
+    "support": "Hỗ trợ",
+    "testnet": "Mạng thử nghiệm",
+    "testnetDescription": "Khi đã bật, bạn có thể chọn tài sản và mạng thử nghiệm của mình từ màn hình quản lý tài sản.",
+    "view_list_of_connected_dapps": "Xem danh sách các Dapp được kết nối",
+    "wallets": "Ví",
+    "walletsAndBackups": "Ví và bản sao lưu"
+  },
+  "storeReview": {
+    "alertMessage": "Chúng tôi muốn biết liệu bạn có trải nghiệm tuyệt vời hay không.",
+    "alertTitle": "Bạn có thích Ứng dụng Kraken Wallet không?",
+    "nagativeAlertTitle": "Chúng tôi rất tiếc vì bạn không có trải nghiệm tốt với ứng dụng này.",
+    "negativeAlertMessage": "Bạn có muốn cho chúng tôi biết cách chúng tôi có thể cải thiện trải nghiệm của bạn không?",
+    "notReally": "Không hẳn",
+    "sendFeedback": "Gửi phản hồi",
+    "yes": "Có"
+  },
+  "support": {
+    "contactUs": "Liên hệ chúng tôi",
+    "getInTouch": "Liên hệ",
+    "knowledgeBaseDesc": "Tìm kiếm tài liệu của chúng tôi, đọc Những câu hỏi thường gặp rồi liên hệ",
+    "knowledgeBaseTitle": "Kiến thức cơ bản",
+    "visitSupportCenter": "Truy cập trung tâm hỗ trợ"
+  },
+  "swap": {
+    "amountExceedingBalance": "Số tiền đã nhập vượt quá số dư khả dụng",
+    "amountPlaceholder": "Nhập số tiền",
+    "balance": "Số dư {0}",
+    "buttonTitle": "Hoán đổi",
+    "confirmation": {
+      "cancel": "Hủy",
+      "confirm": "Xác nhận"
+    },
+    "emptyState": {
+      "assetsEmptyDesc": "Ví hiện tại của bạn không có bất kỳ tài sản nào, hãy thử nạp tiền vào ví của bạn",
+      "assetsEmptyTitle": "Hiện không có tài sản nào",
+      "clearSearch": "Xóa dữ liệu tìm kiếm",
+      "goBack": "Quay lại",
+      "searchAllNetworks": "Tìm kiếm tất cả các mạng",
+      "searchEmptyDesc": "Hãy thử mở rộng tìm kiếm của bạn",
+      "searchEmptyTitle": "Không có kết quả",
+      "swappableAssetsEmptyDesc": "Ví hiện tại của bạn không có bất kỳ tài sản nào được nhà cung cấp dịch vụ hoán đổi của chúng tôi hỗ trợ",
+      "swappableAssetsEmptyNetworkDesc": "Ví hiện tại của bạn không có bất kỳ tài sản nào trên mạng được chọn được nhà cung cấp hoán đổi của chúng tôi hỗ trợ",
+      "swappableAssetsEmptyNetworkTitle": "Không có tài sản có thể hoán đổi nào khả dụng trên mạng đã chọn",
+      "swappableAssetsEmptyTitle": "Không có tài sản có thể hoán đổi nào"
+    },
+    "findingBestRote": "Tìm lộ trình tốt nhất",
+    "route": {
+      "bridgeCost": {
+        "hint": "Chi phí cầu nối là khoản phí do nhà cung cấp dịch vụ hoán đổi tính khi chuyển tài sản giữa các blockchain khác nhau trong quá trình hoán đổi.",
+        "title": "Chi phí cầu nối"
+      },
+      "krakenFee": {
+        "hint": "Kraken Wallet không tính bất kỳ khoản phí nào cho việc hoán đổi. Chúng tôi cung cấp dịch vụ này miễn phí để hỗ trợ việc áp dụng công nghệ tiền điện tử và blockchain.",
+        "title": "Phí Kraken",
+        "value": "MIỄN PHÍ"
+      },
+      "minumumOutput": {
+        "hint": "Nếu xảy ra trượt giá, đây là số tiền tối thiểu của tài sản mục tiêu mà bạn sẽ nhận được khi giao dịch thành công.",
+        "title": "Đầu ra tối thiểu"
+      },
+      "networkFee": {
+        "hint": "Phí mạng là khoản phí phải trả cho bên xác thực blockchain để xử lý và xác nhận giao dịch của bạn.",
+        "title": "Phí mạng"
+      },
+      "priceImpact": {
+        "hint": "Tác động giá là sự chênh lệch giữa giá thị trường và giá hoán đổi. Điều này phụ thuộc vào quy mô giao dịch của bạn so với tính thanh khoản trong nhóm.",
+        "title": "Tác động giá"
+      },
+      "rate": "Tỷ giá",
+      "slippage": {
+        "hint": "Trượt giá là sự chênh lệch giữa giá dự kiến ​​và giá cuối cùng của một tài sản. Nếu giá thay đổi bất lợi vượt quá mức trượt giá đã thiết lập, giao dịch sẽ bị hủy.",
+        "title": "Trượt giá"
+      },
+      "swapRate": "Tỷ giá hoán đổi",
+      "transactionFees": "Phí giao dịch",
+      "typeSelection": {
+        "bestValue": {
+          "desc": "Giá trị tổng thể tốt nhất",
+          "name": "Giá trị tốt nhất"
+        },
+        "fastest": {
+          "desc": "Tốc độ giao dịch nhanh nhất",
+          "name": "Hoán đổi nhanh nhất"
+        },
+        "title": "Tìm lộ trình hoán đổi với"
+      },
+      "unsupportedRoute": {
+        "desc": "Bạn có thể thử hoán đổi tài sản của mình để lấy một token lớn từ danh sách có sẵn, sau đó thực hiện một lần hoán đổi riêng để có được tài sản bạn muốn. Sự thành công của cách tiếp cận này không được đảm bảo.",
+        "title": "Không có lộ trình nào khả dụng cho giao dịch bạn đã nhập."
+      }
+    },
+    "routePath": {
+      "bridge": "Cầu nối thông qua {name}",
+      "swap": "Hoán đổi thông qua {name}",
+      "title": "Lộ trình hoán đổi"
+    },
+    "selectAsset": "Chọn tài sản",
+    "sourceListHeader": "Tài sản của bạn",
+    "sourceSearchPlaceholder": "Chọn tài sản để hoán đổi",
+    "targetSearchPlaceholder": "Chọn tài sản để nhận",
+    "title": "Hoán đổi",
+    "unsupportedAssetsHidden": "Các nhà cung cấp hoán đổi của chúng tôi hiện chưa hỗ trợ {count} tài sản khác của bạn"
+  },
+  "test": {
+    "key": "Đang kiểm tra"
+  },
+  "tokenLists": {
+    "blacklisted": "Danh sách chặn",
+    "description": "Danh sách token là danh sách dựa trên danh tiếng nhằm xác định các token được các sàn giao dịch khác nhau và những người tham gia Web3 khác tin cậy.",
+    "help": "Danh sách token là gì?",
+    "likelySpam": "Có khả năng là lừa đảo",
+    "likelySpamDescription": "Hãy hết sức thận trọng khi tương tác với token này. Token đó có thể có hại.",
+    "likelySpamHelp": "Token có thể là token rác là gì?",
+    "likelySpamInfo": "Các token có thể là token rác có khả năng đã bị cộng đồng công cộng hoặc một trong các đối tác của chúng tôi cảnh báo là token rác, lừa đảo hoặc có hại.",
+    "likelySpamTitle": "Có khả năng là lừa đảo",
+    "likelySpamUseCaution": "Sử dụng hết sức thận trọng",
+    "notListed": "Không được liệt kê",
+    "openDocs": "Mở tài liệu",
+    "tokenLists": "Danh sách token",
+    "tokens": "{tokenListCount} token",
+    "unverified": "Không được liệt kê",
+    "unverifiedButtonLink": "Tại sao token đó không được niêm yết?",
+    "unverifiedDescription": "Token này không được niêm yết trên bất kỳ Danh sách token được hỗ trợ nào. Sử dụng thận trọng.",
+    "unverifiedExplainerDescription": "Các token không được niêm yết trong một trong các danh sách dự án được hỗ trợ của chúng tôi và chưa bị cảnh báo là spam sẽ được tìm thấy trong danh sách này.",
+    "unverifiedHelp": "Tại sao token đó không được niêm yết?",
+    "unverifiedWarning": "Vui lòng sử dụng thận trọng",
+    "verified": "Được niêm yết",
+    "verifiedDescription": "Các token được niêm yết ở đây đã được xác minh và hiện khả dụng trên sàn giao dịch Kraken.",
+    "verifiedInfoKraken": "Các token được liệt kê ở đây hiện có sẵn trên sàn giao dịch Kraken.",
+    "verifiedKraken": "Token được niêm yết trên Kraken"
+  },
+  "transactionDetails": {
+    "amount": "Số tiền",
+    "confirmation": {
+      "cancel": "Hủy",
+      "confirm": "Xác nhận",
+      "fee": "Phí mạng:"
+    },
+    "contractAddress": "Địa chỉ hợp đồng",
+    "copyToClipboard": "Đã sao chép vào bộ nhớ tạm",
+    "description": {
+      "approval": {
+        "failed": "Không thể phê duyệt {amount} trên {address}",
+        "pending": "{amount} đang chờ duyệt trên {address}",
+        "succeeded": "{amount} đã được phê duyệt trên {address}"
+      },
+      "approvals": {
+        "failed": "Không thể phê duyệt {amount} trên {address}",
+        "pending": "{amount} đang chờ duyệt trên {address}",
+        "succeeded": "{amount} đã được phê duyệt trên {address}",
+        "success": "{amount} đã được phê duyệt trên {address}"
+      },
+      "contractInteraction": {
+        "failed": "Tương tác với {address} không thành công",
+        "pending": "Tương tác với {address} đang chờ xử lý",
+        "succeeded": "Tương tác với {address}"
+      },
+      "contractInteractionFundsReceived": {
+        "pending": "Số tiền đang được nhận từ {address}",
+        "succeeded": "Số tiền đã được nhận thông qua {address}"
+      },
+      "contractInteractions": {
+        "failed": "Tương tác với {address} không thành công",
+        "pending": "Tương tác với {address} đang chờ xử lý",
+        "succeeded": "Tương tác với {address}"
+      },
+      "deposit": {
+        "failed": "Không thể nạp {amount} vào {address}",
+        "pending": "{amount} đang được nạp vào {address}",
+        "succeeded": "{amount} đã được nạp vào {address}"
+      },
+      "nftBuy": {
+        "failed": "Không thể mua {nftName} qua {address}",
+        "pending": "{nftName} đang được mua qua {address}",
+        "succeeded": "{nftName} đã được mua qua {address}"
+      },
+      "nftMint": {
+        "failed": "Không thể đúc {nftName} qua {address}",
+        "pending": "{nftName} đang được đúc qua {address}",
+        "succeeded": "{nftName} đã được đúc qua {address}"
+      },
+      "nftReceive": {
+        "pending": "{nftName} đang được nhận từ {address}",
+        "succeeded": "{nftName} đã được nhận từ {address}"
+      },
+      "nftSell": {
+        "failed": "Không thể bán {nftName} qua {address}",
+        "pending": "{nftName} đang được bán qua {address}",
+        "succeeded": "{nftName} đã được bán qua {address}"
+      },
+      "nftSend": {
+        "failed": "Không thể gửi {nftName} đến {address}",
+        "pending": "{nftName} đang được gửi đến {address}",
+        "succeeded": "{nftName} đã được gửi đến {address}"
+      },
+      "receive": {
+        "pending": "{amount} đang được nhận từ {address}",
+        "succeeded": "{amount} đã được nhận từ {address}"
+      },
+      "receiveUtxo": {
+        "pending": "{amount} đang được nhận",
+        "succeeded": "{amount} đã được nhận"
+      },
+      "send": {
+        "failed": "Không thể gửi {amount} đến {address}",
+        "pending": "{amount} đang được gửi đến {address}",
+        "succeeded": "{amount} đã được gửi đến {address}"
+      },
+      "sendUtxo": {
+        "failed": "Không thể gửi {amount}",
+        "pending": "{amount} đang được gửi",
+        "succeeded": "{amount} đã được gửi"
+      },
+      "swap": {
+        "failed": "Không thể hoán đổi {amountSent} sang {amountReceived} qua {address}",
+        "pending": "{amountSent} đang được hoán đổi lấy {amountReceived} qua {address}",
+        "succeeded": "{amountSent} đã được hoán đổi lấy {amountReceived} qua {address}"
+      }
+    },
+    "free": "Miễn phí",
+    "from": "Từ",
+    "genericNetworkFee": "Phí mạng",
+    "input": "Đầu vào",
+    "inputs": "Thông tin nhập",
+    "networkFee": "Phí mạng {network}",
+    "networkFee_": "Phí mạng",
+    "notes": "Mô tả",
+    "notes_edit": "Chỉnh sửa",
+    "notes_empty": "Không có mô tả",
+    "notesCaption": "Mô tả được lưu cục bộ trên thiết bị của bạn",
+    "open_explorer": "Xem trong explorer",
+    "openExplorer": "Xem trong explorer",
+    "output": "Đầu ra",
+    "outputs": "Dữ liệu đầu ra",
+    "recipient": "Đang gửi tới",
+    "saveNotes": "Lưu",
+    "state": {
+      "failed": "Không thành công",
+      "pending": "Đang chờ xử lý",
+      "success": "Thành công"
+    },
+    "status": "Trạng thái",
+    "status_confirmed": "Đã xác nhận",
+    "status_pending": "Đang chờ xử lý",
+    "time": "Thời gian",
+    "title": "Chi tiết giao dịch",
+    "to": "Đến",
+    "toBTC": "Tới:",
+    "transaction_id": "ID giao dịch",
+    "unlimited": "Không giới hạn"
+  },
+  "transactions": {
+    "activity": "Hoạt động",
+    "no_transactions_yet": "Chưa có giao dịch. Kéo để làm mới",
+    "pending": "Đang gửi...",
+    "receive": "Nhận",
+    "send": "Gửi",
+    "transactions": "Giao dịch"
+  },
+  "transactionTile": {
+    "activity": "Hoạt động",
+    "address": {
+      "from": "Từ: ",
+      "to": "Tới: "
+    },
+    "balance": "Số dư",
+    "nativeAssetView": {
+      "approval": "Phê duyệt",
+      "contractInteraction": "Tương tác hợp đồng",
+      "send": "Gửi {assetSymbol}"
+    },
+    "networkFee": "Phí mạng",
+    "no_transactions_description": "Thêm một số tài sản vào Ví của bạn",
+    "no_transactions_title": "Giao dịch sẽ xuất hiện ở đây",
+    "no_transactions_yet": "Chưa có giao dịch. Kéo để làm mới",
+    "noTransactionsDescription": "Thêm một số {0} vào ví của bạn",
+    "noTransactionsTitle": "Giao dịch sẽ xuất hiện ở đây",
+    "pending": "Đang gửi...",
+    "transactions": "Giao dịch",
+    "type": {
+      "contractInteraction": "Tương tác hợp đồng",
+      "contractInteractionAffected": "Số tiền đã nhận",
+      "deposit": "Nạp",
+      "mint": "NFT đúc",
+      "NFTBuy": "NFT mua",
+      "NFTReceive": "NFT nhận",
+      "NFTSell": "Giao dịch bán NFT",
+      "NFTsend": "NFT gửi",
+      "receive": "Nhận",
+      "send": "Gửi",
+      "swap": "Hoán đổi",
+      "tokenApproval": "Phê duyệt"
+    }
+  },
+  "universalReceive": {
+    "buttonTitle": "Nhận",
+    "copied": "Đã sao chép địa chỉ",
+    "crypto": "Tiền điện tử",
+    "cryptoAndNft": "NFT và tiền điện tử",
+    "ethereumAddressLabel": "Bao gồm các mạng tương thích với Ethereum",
+    "ethereumExplainerBody": "Hệ thống địa chỉ của Ethereum mở rộng sang các mạng tương thích với Ethereum như Polygon, Arbitrum, OP Mainnet, Base, Linea và Avalanche đảm bảo một địa chỉ của bạn hoạt động ở mọi nơi",
+    "ethereumExplainerHeading": "Địa chỉ Ethereum của bạn",
+    "tokenAddress": "Địa chỉ {token}"
+  },
+  "universalSend": {
+    "assetBTCEmptyDesc": "Ví hiện tại của bạn không có Bitcoin nào",
+    "assetBTCEmptyTitle": "Hiện không có Bitcoin",
+    "assetDogeEmptyDesc": "Ví hiện tại của bạn không có Dogecoin nào",
+    "assetDogeEmptyTitle": "Hiện không có Dogecoin",
+    "assetEthereumaEmptyDesc": "Ví của bạn không có bất kỳ tài sản khả dụng nào trên mạng Ethereum hoặc Lớp 2",
+    "assetEthereumEmptyTitle": "Hiện không có Ethereum",
+    "assetsEmptyDesc": "Ví hiện tại của bạn không có bất kỳ tài sản nào, hãy thử nạp tiền vào ví của bạn",
+    "assetsEmptyTitle": "Hiện không có tài sản nào",
+    "assetSolanaEmptyDesc": "Ví hiện tại của bạn không có bất kỳ tài sản Solana nào",
+    "assetSolanaEmptyTitle": "Hiện không có tài sản Solana nào",
+    "buttonTitle": "Gửi",
+    "clearSearch": "Xóa tìm kiếm",
+    "continue": "Tiếp tục",
+    "goBack": "Quay lại",
+    "myWallets": "Ví của tôi",
+    "searchEmptyDesc": "Thử mở rộng tìm kiếm của bạn",
+    "searchEmptyTitle": "Không có kết quả",
+    "searchPlaceholder": "Chọn tài sản bạn muốn gửi",
+    "sendAsset": "Gửi tài sản",
+    "sendTo": "Gửi đến"
+  },
+  "url": {
+    "licenses": "https://www.kraken.com/legal",
+    "privacyPolicy": "https://www.kraken.com/wallet/privacy",
+    "releaseNotes": "https://blog.kraken.com",
+    "termsOfService": "https://kraken.com"
+  },
+  "view_nft": {
+    "gallery": "Thư viện",
+    "lives_on": "Hoạt động trên:"
+  },
+  "view_token": {
+    "lives_on": "Hoạt động trên:"
+  },
+  "walletBackup": {
+    "backup": "Hỗ trợ",
+    "backupYourWallet": "Sao lưu ví của bạn",
+    "backupYourWalletDescription": "Đảm bảo bạn có thể khôi phục tiền điện tử của mình nếu bạn mất thiết bị hoặc chuyển sang ví khác.",
+    "cloudWarning": {
+      "button": "Sao lưu bằng iCloud",
+      "desc": "Đảm bảo bạn có thể khôi phục ví của mình ngay cả khi bạn mất cụm từ khôi phục bí mật",
+      "title": "Khuyến nghị sao lưu đám mây"
+    },
+    "manualWarning": {
+      "button": "Sao lưu thủ công",
+      "desc": "Đảm bảo bạn có thể khôi phục ví của mình ngay cả khi mất quyền truy cập tài khoản iCloud.",
+      "title": "Khuyến nghị sao lưu thủ công"
+    },
+    "secondaryBackup": {
+      "iCloud": "Để tăng khả năng khôi phục, hãy tạo bản sao lưu được mã hóa bằng mật khẩu trên iCloud. Mã hóa có nghĩa là ngay cả Apple cũng không thể nhìn thấy",
+      "manual": "Để tăng khả năng khôi phục, hãy tạo bản sao lưu thủ công cụm từ khôi phục bí mật của bạn để lưu trữ ở nơi an toàn",
+      "title": "Tạo bản sao lưu phụ"
+    },
+    "secretRecoveryPhrase": "Cụm từ khôi phục bí mật của bạn",
+    "tapHereToView": "Nhấn vào đây để xem"
+  },
+  "walletBackupPrompt": {
+    "backUpNow": "Sao lưu ngay bây giờ",
+    "body": "Bạn chưa sao lưu Cụm từ khôi phục bí mật của mình. Chúng tôi khuyên bạn nên sao lưu để tránh mất quyền truy cập vào khoản tiền của mình.",
+    "header": "Trước khi nhận tiền vào ví này, hãy sao lưu cụm từ khôi phục"
+  },
+  "walletBackupSelection": {
+    "backupManually": "Sao lưu thủ công",
+    "backupManuallyCompleted": "Đã sao lưu thủ công",
+    "backupWithICloud": "Sao lưu bằng iCloud",
+    "backupWithICloudCompleted": "Đã sao lưu bằng iCloud",
+    "caption": "Nếu không sao lưu ví của mình, bạn sẽ có nguy cơ mất tiền điện tử. Chúng tôi không có quyền truy cập vào cụm từ khôi phục của bạn và không thể giúp bạn khôi phục nếu không có bản sao lưu.",
+    "explainer": {
+      "desc": "Việc mất cụm từ khôi phục bí mật là cách thông thường khiến mọi người mất tiền điện tử. Kraken Wallet giảm thiểu rủi ro này bằng cách cung cấp nhiều phương pháp sao lưu an toàn.",
+      "title": "Tăng khả năng khôi phục để giảm nguy cơ mất tiền"
+    },
+    "iCloudDescCompletedShort": "Cụm từ khôi phục bí mật được mã hóa",
+    "iCloudDescLong": "Mã hóa bằng mã khóa và lưu trữ trên iCloud",
+    "iCloudDescShort": "Mã hóa và lưu trữ trên iCloud",
+    "manualBackupDescLong": "Lưu theo cách thủ công ở nơi an toàn theo ý bạn",
+    "manualBackupDescShort": "Lưu ở nơi an toàn theo ý bạn",
+    "manualBackupDescShortCompleted": "Tôi đã lưu ở một nơi an toàn",
+    "prompt": "Đảm bảo bạn luôn có thể truy cập vào ví của mình ngay cả khi bạn làm mất thiết bị.",
+    "recoverability": {
+      "desc": "Có thể mạnh hơn",
+      "title": "Khả năng khôi phục"
+    },
+    "skipButton": "Có lẽ để sau",
+    "subtitle": "ví của bạn",
+    "title": "Hỗ trợ",
+    "titleWithSubtitle": "Sao lưu ví của bạn",
+    "tooltip": {
+      "iCloud": "Bản sao lưu iCloud đảm bảo bạn vẫn có thể khôi phục ví của mình nếu bạn làm mất cụm từ khôi phục bí mật.",
+      "manual": "Sao lưu thủ công đảm bảo bạn vẫn có thể khôi phục ví của mình nếu mất quyền truy cập iCloud hoặc làm mất thiết bị."
+    }
+  },
+  "walletCloudBackup": {
+    "createPasskey": "Tạo mã khóa",
+    "hints": {
+      "part1": "An toàn hơn mật khẩu tiêu chuẩn",
+      "part2": "Được mã hóa bằng sinh trắc học hoặc thiết bị bảo mật",
+      "part3": "Bạn có thể khôi phục lại ngay cả khi mất thiết bị này"
+    },
+    "passkeyDescription": "Để tạo bản sao lưu, hãy mã hóa bằng mã khóa. Điều này đảm bảo không ai ngoài bạn có thể khôi phục bản sao lưu. (Hãy mã hóa để đảm bảo ngay cả Apple cũng không thể nhìn thấy)",
+    "secureYourBackup": "Bảo mật bản sao lưu của bạn",
+    "success": "Ví đã được sao lưu thành công trên iCloud"
+  },
+  "walletCloudBackupDelete": {
+    "cancel": "Hủy",
+    "caption": "Hãy đảm bảo bạn đã lưu Cụm từ khôi phục bí mật ở nơi an toàn để bạn vẫn có thể khôi phục ví trong trường hợp bị mất thiết bị.",
+    "check1": "Tôi hiểu rằng nếu tôi bị mất điện thoại hoặc xóa ứng dụng, tôi sẽ cần cụm từ khôi phục bí mật để khôi phục ví của mình.",
+    "check2": "Tôi xác nhận tôi đã lưu cụm từ khôi phục bí mật gồm 12 từ của mình ở một nơi an toàn.",
+    "delete": "Xóa",
+    "header": "Bạn có chắc chắn muốn xóa bản sao lưu này không?",
+    "title": "Xóa bản sao lưu"
+  },
+  "walletCloudBackupError": {
+    "deleteBackupConfirmation": {
+      "cancel": "Hủy",
+      "description": "Khi xóa đi, bạn xác nhận rằng mã khóa đã bị xóa. Hành động này sẽ xóa mọi tham chiếu đến mã khóa đã xóa khỏi ứng dụng.",
+      "header": "Xóa bản sao lưu mã khóa",
+      "remove": "Xóa",
+      "title": "Bạn có chắc chắn muốn xóa bản sao lưu mã khóa này không?"
+    },
+    "ensureICloudKeychainOn": "Trong Tùy chọn mật khẩu trên thiết bị của bạn, hãy đảm bảo iCloud Keychain đã bật để sử dụng cho mật khẩu và mã khóa:",
+    "errorCreatingBackup": {
+      "cancel": "Hủy",
+      "description": "Đã xảy ra sự cố khi cố gắng tạo bản sao lưu.",
+      "title": "Lỗi khi tạo bản sao lưu",
+      "tryAgainBold": "chúng tôi không hỗ trợ lưu bản sao lưu trên các thiết bị khác.",
+      "tryAgainButton": "Thử lại",
+      "tryAgainRegular": "Khi thử lại, hãy nhớ rằng "
+    },
+    "errorCreatingPasskey": {
+      "description": "Trong Tùy chọn mật khẩu trên thiết bị của bạn, hãy đảm bảo iCloud Keychain đã bật để sử dụng cho mật khẩu và mã khóa:",
+      "title": "Lỗi khi tạo mã khóa"
+    },
+    "errorDeletingPasskey": {
+      "cancel": "Hủy",
+      "deletedPasskeyPossibility": "Một khả năng khác là mã khóa chứa bản sao lưu của bạn đã bị xóa. Nếu bạn chắc chắn mã khóa đã bị xóa, chúng tôi có thể đánh dấu mã khóa đó và xóa mã khóa đó khỏi ví.",
+      "removeItButton": "Có, hãy xóa",
+      "title": "Lỗi khi xóa bản sao lưu mã khóa"
+    },
+    "errorInactive": {
+      "description": "Nếu đã tạo nhiều mã khóa, bạn có thể thử nhập một bản sao lưu khác. Nếu không, bạn có thể nhập ví của mình bằng Cụm từ khôi phục bí mật gồm 12-24 từ",
+      "subtitle": "Mã khóa này không hoạt động, nghĩa là mã đang nằm trong bản sao lưu mà bạn đã xóa thủ công.",
+      "title": "Mã khóa không còn hoạt động"
+    },
+    "keychainSteps": {
+      "one": {
+        "bold": "Cài đặt → Mật khẩu → Tùy chọn mật khẩu",
+        "regular": "1. Đi đến: "
+      },
+      "two": {
+        "bold": "iCloud Keychain",
+        "regular": "2. Bật: "
+      }
+    },
+    "noPasskeyFound": {
+      "description": "Chúng tôi không thể tìm thấy mã khóa. Có thể bạn chưa tạo hoặc iCloud Keychain đã bị tắt trong phần cài đặt. Đảm bảo iCloud Keychain đã bật bằng cách làm theo các bước sau:",
+      "title": "Không tìm thấy mã khóa"
+    },
+    "supportHint": {
+      "link": "Bộ phận Hỗ trợ Kraken Wallet ↗",
+      "regular": "Nếu điều đó không giải quyết được vấn đề, bạn có thể nhận trợ giúp bằng cách truy cập ",
+      "regularWithManualBackup": "Nếu điều đó không giải quyết được vấn đề, bạn có thể nhập Cụm từ khôi phục bí mật 12-24 ký tự hoặc nhận trợ giúp bằng cách truy cập "
+    },
+    "userCanceledBackup": {
+      "cancel": "Hủy",
+      "description": "Để sao lưu ví, bạn phải Đăng nhập lần thứ hai, nếu không, chúng tôi không thể mã hóa ví của bạn một cách an toàn bằng mã khóa.",
+      "title": "Yêu cầu đăng nhập bằng mã khóa"
+    }
+  },
+  "walletConnect": {
+    "account_not_found": "WalletConnect: không tìm thấy tài khoản",
+    "action_cancelled": "Đã hủy hành động",
+    "action_in_progress": "Đang thực hiện hành động WalletConnect của bạn...",
+    "app_details": {
+      "disconnect": "Ngắt kết nối",
+      "disconnect_decscription": "Ngắt kết nối ứng dụng này sẽ xóa tất cả quyền truy cập vào ví của bạn",
+      "error": "Lỗi ngắt kết nối",
+      "open": "Mở"
+    },
+    "auth": {
+      "cancel": "Hủy",
+      "connect": "Kết nối"
+    },
+    "back_to_dapp": "Quay lại trình duyệt để tiếp tục",
+    "failedToConnect": "Ứng dụng không kết nối được",
+    "failedToDisconnect": "Ứng dụng chưa ngắt kết nối",
+    "feeEstimate": "Ước tính phí",
+    "invalid_request_params": "WalletConnect: request.params không hợp lệ",
+    "list": {
+      "disconnect_all": "Ngắt kết nối tất cả ({0})",
+      "error_all": "Lỗi ngắt kết nối tất cả ứng dụng",
+      "title": "Ứng dụng"
+    },
+    "method_not_implemented": "WalletConnect: phương thức {method} không được triển khai",
+    "request_fulfilled": "WalletConnect: yêu cầu đã được thực hiện",
+    "response_rejected": "WalletConnect: Yêu cầu ứng dụng bị từ chối",
+    "response_rejected_prepare_transaction_failure": "WalletConnect: phản hồi bị từ chối, chuẩn bị giao dịch không thành công",
+    "title": "Wallet Connect",
+    "topic_not_found": "WalletConnect: không tìm thấy chủ đề",
+    "unsupported_network": "Mạng này không được hỗ trợ",
+    "wallet_no_account": "WalletConnect: ví liên quan không có số tài khoản được liên kết",
+    "wallet_not_found": "WalletConnect: không thể tìm thấy ví liên quan"
+  },
+  "walletConnectExplainer": {
+    "firstPage": {
+      "boldDescription": "truy cập an toàn hàng ngàn ứng dụng phi tập trung",
+      "buttonText": "Nghe hay đấy",
+      "description": "Với ví của mình, bạn có thể {boldDescription} sử dụng WalletConnect.",
+      "title": "Không chỉ là lưu trữ tiền điện tử!"
+    },
+    "fourthPage": {
+      "aaveDescription": "Vay và cho vay tiền điện tử trên Aave",
+      "buttonText": "Đóng",
+      "ensDescription": "Đăng ký tên on-chain của bạn trước khi biến mất",
+      "mintDescription": "Sử dụng ví của bạn để nhận NFT miễn phí trên {url}",
+      "title": "Hãy thử ngay:",
+      "website": "Trang web: "
+    },
+    "secondPage": {
+      "buttonText": "Tiếp tục",
+      "part1": "Chạm Kết nối ví",
+      "part2": "Chọn WalletConnect",
+      "part3": "Trên điện thoại của bạn, nhấn",
+      "part4": "Quét mã QR",
+      "title": "Để kết nối ví của bạn với ứng dụng Web3",
+      "titlePart1": "1. Nhấn Kết nối ví",
+      "titlePart2": "2. Chọn WalletConnect",
+      "titlePart3": "3. Trên điện thoại của bạn, nhấn",
+      "titlePart4": "4. Quét mã QR",
+      "titleWithEllipsis": "Để kết nối ví của bạn với ứng dụng Web3..."
+    },
+    "thirdPage": {
+      "buttonText": "Tiếp tục",
+      "description1": "Chạm vào WalletConnect",
+      "description2": "Chọn Kraken Wallet",
+      "subtitle": "Thay vì quét:",
+      "title": "Khi sử dụng ứng dụng Web3 trên điện thoại"
+    }
+  },
+  "walletConnectTutorialPrompt": {
+    "firstPage": {
+      "boldDescription": "truy cập an toàn hàng ngàn ứng dụng phi tập trung",
+      "buttonText": "Nghe hay đấy",
+      "description": "Với ví của mình, bạn có thể {boldDescription} sử dụng WalletConnect.",
+      "title": "Không chỉ là lưu trữ tiền điện tử!"
+    },
+    "fourthPage": {
+      "aaveDescription": "Vay và cho vay tiền điện tử trên Aave",
+      "aaveWebsite": "app.aave.com",
+      "buttonText": "Đóng",
+      "ensDescription": "Đăng ký tên on-chain của bạn trước khi biến mất",
+      "ensWebsite": "app.ens.domains",
+      "mintDescription": "Sử dụng ví của bạn để nhận NFT miễn phí trên {website}",
+      "mintWebsite": "mint.fun",
+      "title": "Hãy thử ngay:",
+      "website": "Trang web: "
+    },
+    "secondPage": {
+      "buttonText": "Tiếp tục",
+      "step1": "Chạm Kết nối ví",
+      "step1title": "1. Nhấn Kết nối ví",
+      "step2": "Chọn WalletConnect",
+      "step2title": "2. Chọn WalletConnect",
+      "step3": "Trên điện thoại của bạn, nhấn",
+      "step3title": "3. Trên điện thoại của bạn, nhấn",
+      "step4": "Quét mã QR",
+      "step4title": "4. Quét mã QR",
+      "title": "Để kết nối ví của bạn với ứng dụng Web3"
+    },
+    "thirdPage": {
+      "buttonText": "Tiếp tục",
+      "description1": "Sao chép liên kết WalletConnect",
+      "description2": "Dán địa chỉ vào ví của bạn",
+      "subtitle": "Thay vì quét:",
+      "title": "Khi sử dụng ứng dụng Web3 trên điện thoại"
+    }
+  },
+  "walletDetails": {
+    "derivationPath": "Đường dẫn phái sinh",
+    "title": "Thông tin thêm",
+    "type": "Loại",
+    "wallet_information": "Thông tin ví",
+    "xpub": "Khóa công khai mở rộng",
+    "xpubKeyCopied": "Đã sao chép vào bộ nhớ tạm"
+  },
+  "wallets": {
+    "import_title": "Nhập",
+    "list_tryagain": "Thử lại",
+    "pending": "Đang chờ xử lý"
+  },
+  "whatsNew": {
+    "assetMarketData": {
+      "buttonText": "Hãy kiểm tra",
+      "part1": "Bây giờ, bạn có thể theo dõi sự thay đổi về giá và hiệu suất của tài sản nắm giữ của mình trực tiếp trong ví!",
+      "part2": "Tìm hiểu thêm thông tin chi tiết về tài sản, nhận thông báo về các mối đe dọa tiềm ẩn và truy cập liền mạch các thông tin cần thiết như hợp đồng token và phí mạng hiện tại.",
+      "title": "Dữ liệu tài sản toàn diện trong tầm tay bạn"
+    },
+    "longPress": {
+      "buttonText": "Nghe hay đấy",
+      "part1": "Chúng tôi rất vui được giới thiệu các hành động Long Press cho tài sản và NFT của bạn! Thực hiện các tác vụ như gửi, nhận và ẩn một cách dễ dàng mà không cần điều hướng nhiều màn hình.",
+      "part2": "Tận hưởng trải nghiệm ví mượt mà hơn, trực quan hơn ngay hôm nay.",
+      "title": "Thao tác nhanh chóng để thuận tiện cho bạn"
+    }
+  }
+}
